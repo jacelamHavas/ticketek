@@ -217,6 +217,9 @@
                         cursor: pointer;
                         font-family: 'Open Sans', Arial, Helvetica, Sans-serif;
                     }
+                    a.buy-button:hover {
+                        color: #fff!important;
+                    }
 
                     .claridge-button.green {
                         background-color: #6AC63F;
@@ -279,7 +282,7 @@
 
 
 
-                                <div id="NSW" class="show hide">
+                                <div id="NSW" class="show">
                                     <div class="match">
                                         <h4>Gillete T20 INTL Series v India</h4>
                                         <div class="info">
@@ -441,7 +444,7 @@
 
 
 
-                                <div id="ACT" class="show">
+                                <div id="ACT" class="hide">
                                     <div class="match">
                                         <h4>PM's XI v South Africa ODI</h4>
                                         <div class="info">
@@ -607,17 +610,3 @@
         </div>
     </div>
 </div>
-<script>
-        $('#eventsPageContainerInner .tab-item').on('click', function (e) {
-        $('#eventsPageContainerInner #nav-page').removeClass('show').addClass('hide');
-        $('#eventsPageContainerInner #match-page').removeClass('hide').addClass('show');
-        var current = $(this).data('attr', current);
-        $("#eventsPageContainerInner .match-container").children().removeClass('show').addClass('hide');
-        $("#eventsPageContainerInner .match-container").find(`#${current}`).addClass('show').removeClass('hide');
-        $("#eventsPageContainerInner").find('#region').html(current);
-    });
-    $('#eventsPageContainerInner #backlink').on('click', function (e) {
-        $('#eventsPageContainerInner #match-page').removeClass('show').addClass('hide');
-        $('#eventsPageContainerInner #nav-page').removeClass('hide').addClass('show');
-    });
-</script>
