@@ -1054,585 +1054,570 @@
 
 
 
-                                        <!-- NEW SHIT STARTS HERE -->
+                                    <!-- NEW SHIT STARTS HERE -->
 
 
-                                        <div id="eventsPageContainer">
+                                    <div id="eventsPageContainer">
 
-                                            <script type="text/javascript" src="http://premier.ticketek.com.au/js/Video.js?d=151005"></script>
-                                            <style>
-                                                #eventsPageContainer {
-                                                    float: left;
-                                                    width: 100% !important;
-                                                    background: #FFF;
-                                                    /* border-right: 1px solid #EBEBEB; */
-                                                    color: #555;
-                                                    clear: both;
-                                                    display: block;
-                                                }
+                                        <script type="text/javascript" src="http://premier.ticketek.com.au/js/Video.js?d=151005"></script>
+                                        <style>
+                                            #eventsPageContainer {
+                                                float: left;
+                                                width: 100% !important;
+                                                background: #FFF;
+                                                /* border-right: 1px solid #EBEBEB; */
+                                                color: #555;
+                                                clear: both;
+                                                display: block;
+                                            }
 
-                                                .eventsPageContainerInner {
-                                                    box-sizing: border-box;
-                                                }
+                                            .eventsPageContainerInner {
+                                                box-sizing: border-box;
+                                            }
 
-                                                #eventsPageContainerInner {
-                                                    padding: 0;
-                                                    display: block;
-                                                    float: left;
-                                                    margin-top: 10px;
-                                                }
+                                            #eventsPageContainerInner {
+                                                padding: 0;
+                                                display: block;
+                                                float: left;
+                                                margin-top: 10px;
+                                            }
 
-                                                .eventImg {
-                                                    width: 100%;
-                                                    padding: 0px !important;
-                                                    background: #407115;
-                                                    float: left;
-                                                    display: block;
-                                                    box-sizing: border-box;
-                                                    clear: left;
-                                                }
+                                            .eventImg {
+                                                width: 100%;
+                                                padding: 0px !important;
+                                                background: #407115;
+                                                float: left;
+                                                display: block;
+                                                box-sizing: border-box;
+                                                clear: left;
+                                            }
 
-                                                .eventImg img {
-                                                    width: 100% !important;
-                                                    height: auto !important;
-                                                    margin: 0 !important;
-                                                    box-sizing: border-box;
-                                                }
+                                            .eventImg img {
+                                                width: 100% !important;
+                                                height: auto !important;
+                                                margin: 0 !important;
+                                                box-sizing: border-box;
+                                            }
 
-                                                .tab-container {
-                                                    font-size: 18px;
-                                                    font-weight: bold;
-                                                    line-height: 38px;
-                                                    text-align: center;
-                                                    justify-content: space-between;
-                                                    float: left;
-                                                    width: 100%;
-                                                    flex-direction: row;
-                                                    display: flex;
-                                                    margin-bottom: 40px;
-                                                }
+                                            .tab-container {
+                                                font-size: 18px;
+                                                font-weight: bold;
+                                                line-height: 38px;
+                                                text-align: center;
+                                                justify-content: space-between;
+                                                float: left;
+                                                width: 100%;
+                                                flex-direction: row;
+                                                display: flex;
+                                                margin-bottom: 40px;
+                                            }
 
-                                                .tab-item {
-                                                    color: #407115;
-                                                    background: #F4DD31;
-                                                    cursor: pointer;
-                                                    padding: 3px 45px;
-                                                }
+                                            .tab-item {
+                                                color: #407115;
+                                                background: #F4DD31;
+                                                cursor: pointer;
+                                                padding: 3px 45px;
+                                            }
 
-                                                .tab-item.active {
-                                                    background: #407115;
-                                                    color: #F4DE00
-                                                }
+                                            .tab-item.active {
+                                                background: #407115;
+                                                color: #F4DE00
+                                            }
 
-                                              
-                                              .match-container {
-                                                    justify-content: space-evenly;
-                                                    float: left;
-                                                    margin: 0 -20px;
-                                                    flex-direction: row;
-                                                    display: flex;
-                                                    width: 1027px;
-                                                }
 
-                                                .hide {
-                                                    display: none !important;
-                                                }
+                                            .match-container {
+                                                justify-content: space-evenly;
+                                                float: left;
+                                                margin: 0 -20px;
+                                                flex-direction: row;
+                                                display: flex;
+                                                width: 1027px;
+                                            }
 
-                                                .match-container>div {
-                                                    display: inherit;
-                                                    width: 100%;
-                                                }
+                                            .hide {
+                                                display: none !important;
+                                            }
 
-                                                .match {
-                                                    padding: 0 20px;
-                                                    width: auto;
-                                                    max-width: 303px;
-                                                }
+                                            .match-container>div {
+                                                display: inherit;
+                                                width: 100%;
+                                            }
 
-                                                .match .info {
-                                                    float: left;
+                                            .match {
+                                                padding: 0 20px;
+                                                width: auto;
+                                                max-width: 303px;
+                                            }
 
-                                                    flex-grow: 0;
-                                                    flex-shrink: 0;
-                                                    display: block;
-                                                    clear: left;
-                                                    text-align: center;
-                                                    width: 100%;
-                                                    font-size: 18px;
-                                                    margin: 15px 0 30px;
-                                                }
+                                            .match .info {
+                                                float: left;
 
-                                                .match h4 {
-                                                    text-align: center;
-                                                    color: #fff !important;
-                                                    font-size: 18px;
-                                                    padding: 5px;
-                                                    font-weight: 400;
-                                                    background-color: #407115;
-                                                }
+                                                flex-grow: 0;
+                                                flex-shrink: 0;
+                                                display: block;
+                                                clear: left;
+                                                text-align: center;
+                                                width: 100%;
+                                                font-size: 18px;
+                                                margin: 15px 0 30px;
+                                            }
 
-                                                .match .event {
-                                                    font-weight: 500;
-                                                    font-size: 20px;
-                                                }
+                                            .match h4 {
+                                                text-align: center;
+                                                color: #fff !important;
+                                                font-size: 18px;
+                                                padding: 5px;
+                                                font-weight: 400;
+                                                background-color: #407115;
+                                            }
 
-                                                .buy-button {
-                                                    align-items: flex-start;
-                                                    background-color: rgb(106, 198, 63);
-                                                    border-bottom-color: rgb(235, 235, 235);
-                                                    border-bottom-left-radius: 3px;
-                                                    border-bottom-right-radius: 3px;
-                                                    border-bottom-style: solid;
-                                                    border-bottom-width: 1px;
-                                                    border-image-outset: 0px;
-                                                    border-image-repeat: stretch;
-                                                    border-image-slice: 100%;
-                                                    border-image-source: none;
-                                                    border-image-width: 1;
-                                                    border-left-color: rgb(255, 255, 255);
-                                                    border-left-style: none;
-                                                    border-left-width: 0px;
-                                                    border-right-color: rgb(243, 243, 243);
-                                                    border-right-style: solid;
-                                                    border-right-width: 1px;
-                                                    border-top-color: rgb(255, 255, 255);
-                                                    border-top-left-radius: 3px;
-                                                    border-top-right-radius: 3px;
-                                                    border-top-style: none;
-                                                    border-top-width: 0px;
-                                                    box-sizing: border-box;
-                                                    color: rgb(255, 255, 255);
-                                                    cursor: pointer;
-                                                    display: inline-block;
-                                                    font-family: "Open Sans", Arial, Helvetica, sans-serif;
-                                                    font-size: 14px;
-                                                    font-stretch: 100%;
-                                                    font-weight: 500;
-                                                    height: 40.2px;
-                                                    padding-bottom: 10px;
-                                                    padding-left: 45px;
-                                                    padding-right: 45px;
-                                                    padding-top: 10px;
-                                                    text-align: center;
-                                                    width: 100%;
-                                                    word-spacing: 0px;
-                                                    margin-bottom: 15px;
-                                                }
+                                            .match .event {
+                                                font-weight: 500;
+                                                font-size: 20px;
+                                            }
 
-                                                .claridge-button,
-                                                .claridge-button:hover,
-                                                    {
-                                                    border: 0;
-                                                    color: #FFF !important;
-                                                    border-radius: 3px;
-                                                    -moz-border-radius: 3px;
-                                                    -webkit-border-radius: 3px;
-                                                    display: inline-block;
-                                                    border: 0;
-                                                    padding: 10px 45px;
-                                                    font-size: 14px;
-                                                    font-weight: 500;
-                                                    cursor: pointer;
-                                                    font-family: 'Open Sans', Arial, Helvetica, Sans-serif;
-                                                }
+                                            .buy-button {
+                                                align-items: flex-start;
+                                                background-color: rgb(106, 198, 63);
+                                                border-bottom-color: rgb(235, 235, 235);
+                                                border-bottom-left-radius: 3px;
+                                                border-bottom-right-radius: 3px;
+                                                border-bottom-style: solid;
+                                                border-bottom-width: 1px;
+                                                border-image-outset: 0px;
+                                                border-image-repeat: stretch;
+                                                border-image-slice: 100%;
+                                                border-image-source: none;
+                                                border-image-width: 1;
+                                                border-left-color: rgb(255, 255, 255);
+                                                border-left-style: none;
+                                                border-left-width: 0px;
+                                                border-right-color: rgb(243, 243, 243);
+                                                border-right-style: solid;
+                                                border-right-width: 1px;
+                                                border-top-color: rgb(255, 255, 255);
+                                                border-top-left-radius: 3px;
+                                                border-top-right-radius: 3px;
+                                                border-top-style: none;
+                                                border-top-width: 0px;
+                                                box-sizing: border-box;
+                                                color: rgb(255, 255, 255);
+                                                cursor: pointer;
+                                                display: inline-block;
+                                                font-family: "Open Sans", Arial, Helvetica, sans-serif;
+                                                font-size: 14px;
+                                                font-stretch: 100%;
+                                                font-weight: 500;
+                                                height: 40.2px;
+                                                padding-bottom: 10px;
+                                                padding-left: 45px;
+                                                padding-right: 45px;
+                                                padding-top: 10px;
+                                                text-align: center;
+                                                width: 100%;
+                                                word-spacing: 0px;
+                                                margin-bottom: 15px;
+                                            }
 
-                                                .claridge-button.green {
-                                                    background-color: #6AC63F;
-                                                }
+                                            .claridge-button,
+                                            .claridge-button:hover,
+                                                {
+                                                border: 0;
+                                                color: #FFF !important;
+                                                border-radius: 3px;
+                                                -moz-border-radius: 3px;
+                                                -webkit-border-radius: 3px;
+                                                display: inline-block;
+                                                border: 0;
+                                                padding: 10px 45px;
+                                                font-size: 14px;
+                                                font-weight: 500;
+                                                cursor: pointer;
+                                                font-family: 'Open Sans', Arial, Helvetica, Sans-serif;
+                                            }
 
-                                                .claridge-button.blue {
-                                                    background-color: #00ACED;
-                                                }
+                                            .claridge-button.green {
+                                                background-color: #6AC63F;
+                                            }
 
-                                                .disclaimer-info {
-                                                    padding-top: 20px;
+                                            .claridge-button.blue {
+                                                background-color: #00ACED;
+                                            }
 
-                                                    font-size: 11px;
-                                                    display: inline-block;
-                                                }
-                                            </style>
+                                            .disclaimer-info {
+                                                padding-top: 20px;
 
-                                            <div id="eventsPageContainerInner">
-                                                <div class="specialEventsInfo">
+                                                font-size: 11px;
+                                                display: inline-block;
+                                            }
+                                        </style>
 
-                                                    <div class="eventImg">
-                                                        <img src="http://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx205776.jpg" style="width:298px;height:170px;" alt="General Admission 1 Day Pass">
-                                                        <a href="Javascript:runVideoOverlay('5784860430001');" class="showvideos" data-softixtrack="showpage.eventimage.brightcove.video,click">
-                                                            <img src="https://premier.ticketek.com.au/images/PlayButton.png" class="showvideosImg">
+                                        <div id="eventsPageContainerInner">
+                                            <div class="specialEventsInfo">
+
+                                                <div class="eventImg">
+                                                    <img src="http://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx205776.jpg" style="width:298px;height:170px;" alt="General Admission 1 Day Pass">
+                                                    <a href="Javascript:runVideoOverlay('5784860430001');" class="showvideos" data-softixtrack="showpage.eventimage.brightcove.video,click">
+                                                        <img src="https://premier.ticketek.com.au/images/PlayButton.png" class="showvideosImg">
+                                                    </a>
+                                                </div>
+                                                <div class="tab-container">
+
+                                                    <a data-attr="NSW" class="tab-item active">NSW</a>
+
+                                                    <a data-attr="VIC" class="tab-item">VIC</a>
+
+                                                    <a data-attr="QLD" class="tab-item">QLD</a>
+
+                                                    <a data-attr="ACT" class="tab-item">ACT</a>
+
+                                                    <a data-attr="SA" class="tab-item">SA </a>
+
+                                                    <a data-attr="WA" class="tab-item">WA </a>
+
+                                                    <a data-attr="TAS" class="tab-item">TAS</a>
+
+                                                </div>
+                                                <div class="match-container">
+
+
+
+                                                    <div id="NSW" class="show hide">
+                                                        <div class="match">
+                                                            <h4>Gillete T20 INTL Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Sydney Cricket Ground</div>
+                                                                <div>25 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Sydney Cricket Ground</div>
+                                                                <div>3-9 January 2019</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (3 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (4 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (5 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (6 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Sydney Cricket Ground</div>
+                                                                <div>12 January 2019</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div id="VIC" class="hide">
+                                                        <div class="match">
+                                                            <h4>Gillete T20 INTL Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Melbourne Cricket Ground</div>
+                                                                <div> 23 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Melbourne Cricket Ground</div>
+                                                                <div> 26-30 December 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (26 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (27 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (28 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (29 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Melbourne Cricket Ground</div>
+                                                                <div>18 January 2019</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div id="QLD" class="hide">
+                                                        <div class="match">
+                                                            <h4>Gillette T20 INTL Series v South Africa</h4>
+                                                            <div class="info">
+                                                                <div class="event">Metricon Stadium, Gold Coast</div>
+                                                                <div> 17 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Gillete T20 INTL Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event"> The Gabba, Brisbane </div>
+                                                                <div> 21 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v Sri Lanka</h4>
+                                                            <div class="info">
+                                                                <div class="event">The Gabba, Brisbane</div>
+                                                                <div> 24-28 January 2019
+                                                                </div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (24 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (25 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (26 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (27 Jan)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+                                                    <div id="ACT" class="show">
+                                                        <div class="match">
+                                                            <h4>PM's XI v South Africa ODI</h4>
+                                                            <div class="info">
+                                                                <div class="event">Manuka Oval</div>
+                                                                <div> 7 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v Sri Lanka</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Manuka Oval</div>
+                                                                <div>1-5 February 2019</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (1 Feb)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (2 Feb)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (3 Feb)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (4 Feb)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <div id="SA" class="hide">
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v South Africa</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Adelaide Oval</div>
+                                                                <div> 9 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event">Adelaide Oval</div>
+                                                                <div> 6-10 December 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (6 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (7 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (8 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (9 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Adelaide Oval</div>
+                                                                <div>15 January 2019</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+
+
+                                                    <div id="WA" class="hide">
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v South Africa</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Perth Stadium</div>
+                                                                <div> 4 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                        <div class="match">
+                                                            <h4>Test Series v India</h4>
+                                                            <div class="info">
+                                                                <div class="event"> Perth Stadium</div>
+                                                                <div> 14-18 December 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 1 Tickets (14 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 2 Tickets (15 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 3 Tickets (16 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Day 4 Tickets (17 Dec)
+                                                            </a>
+                                                            <a class=" buy-button claridge-button blue">
+                                                                More Info
+                                                            </a>
+                                                        </div>
+                                                    </div>
+
+
+
+
+                                                    <div id="TAS" class="hide">
+                                                        <div class="match">
+                                                            <h4>Gillette ODI Series v South Africa</h4>
+                                                            <div class="info">
+                                                                <div class="event">Blundstone Arena, Hobart</div>
+                                                                <div>11 November 2018</div>
+                                                            </div>
+                                                            <a class=" buy-button claridge-button green">
+                                                                Get Tickets
+                                                            </a>
+                                                        <a class=" buy-button claridge-button blue">
+                                                            More Info
                                                         </a>
-                                                    </div>
-                                                    <div class="tab-container">
-
-                                                        <a data-attr="NSW" class="tab-item active">NSW</a>
-
-                                                        <a data-attr="VIC" class="tab-item">VIC</a>
-
-                                                        <a data-attr="QLD" class="tab-item">QLD</a>
-
-                                                        <a data-attr="ACT" class="tab-item">ACT</a>
-
-                                                        <a data-attr="SA" class="tab-item">SA </a>
-
-                                                        <a data-attr="WA" class="tab-item">WA </a>
-
-                                                        <a data-attr="TAS" class="tab-item">TAS</a>
-
-                                                    </div>
-                                                    <div class="match-container">
-
-
-
-                                                        <div id="NSW" class="show hide">
-                                                            <div class="match">
-                                                                <h4>Gillete T20 INTL Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Sydney Cricket Ground</div>
-                                                                    <div>25 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Sydney Cricket Ground</div>
-                                                                    <div>3-9 January 2019</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (3 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (4 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (5 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (6 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Sydney Cricket Ground</div>
-                                                                    <div>12 January 2019</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-                                                        <div id="VIC" class="hide">
-                                                            <div class="match">
-                                                                <h4>Gillete T20 INTL Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Melbourne Cricket Ground</div>
-                                                                    <div> 23 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Melbourne Cricket Ground</div>
-                                                                    <div> 26-30 December 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (26 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (27 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (28 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (29 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Melbourne Cricket Ground</div>
-                                                                    <div>18 January 2019</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-                                                        <div id="QLD" class="hide">
-                                                            <div class="match">
-                                                                <h4>Gillette T20 INTL Series v South Africa</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Metricon Stadium, Gold Coast</div>
-                                                                    <div> 17 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Gillete T20 INTL Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">The Gabba, Brisbane </div>
-                                                                    <div> 21 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v Sri Lanka</h4>
-                                                                <div class="info">
-                                                                    <div class="event">The Gabba, Brisbane</div>
-                                                                    <div> 24-28 January 2019
-                                                                    </div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (24 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (25 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (26 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (27 Jan)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-                                                        <div id="ACT" class="show">
-                                                            <div class="match">
-                                                                <h4>PM's XI v South Africa ODI</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Manuka Oval</div>
-                                                                    <div> 7 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v Sri Lanka</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Manuka Oval</div>
-                                                                    <div>1-5 February 2019</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (1 Feb)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (2 Feb)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (3 Feb)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (4 Feb)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-
-                                                        <div id="SA" class="hide">
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v South Africa</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Adelaide Oval</div>
-                                                                    <div> 9 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Adelaide Oval</div>
-                                                                    <div> 6-10 December 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (6 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (7 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (8 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (9 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Adelaide Oval</div>
-                                                                    <div>15 January 2019</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-
-
-                                                        <div id="WA" class="hide">
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v South Africa</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Perth Stadium</div>
-                                                                    <div> 4 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                            <div class="match">
-                                                                <h4>Test Series v India</h4>
-                                                                <div class="info">
-                                                                    <div class="event"> Perth Stadium</div>
-                                                                    <div> 14-18 December 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 1 Tickets (14 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 2 Tickets (15 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 3 Tickets (16 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Day 4 Tickets (17 Dec)
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-
-
-
-                                                        <div id="TAS" class="hide">
-                                                            <div class="match">
-                                                                <h4>Gillette ODI Series v South Africa</h4>
-                                                                <div class="info">
-                                                                    <div class="event">Blundstone Arena, Hobart</div>
-                                                                    <div>11 November 2018</div>
-                                                                </div>
-                                                                <div class=" buy-button claridge-button green">
-                                                                    Get Tickets
-                                                                </div>
-                                                                <div class=" buy-button claridge-button blue">
-                                                                    More Info
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="disclaimer-info">
-                                                        <p>
-                                                            <strong>AUTHORISED TICKET AGENCIES</strong>
-                                                            <br> Cricket Australia wants to remind fans around the country that
-                                                            the only way to ensure they receive legitimate tickets and at
-                                                            the official sale price for events at MCG, SCG, Adelaide Oval,
-                                                            Blundstone Arena, Manuka Oval, the Gabba and Metricon Stadium
-                                                            is to purchase via our authorised ticketing agency Ticketek.</p>
-                                                        <p>
-                                                            Fans who purchase tickets from unauthorised resellers risk paying too much and having their tickets to matches cancelled,
-                                                            which is why it is highly recommended to only purchase from Cricket
-                                                            Australia’s authorised ticket agencies.
-                                                        </p>
-                                                    </div>
+                                                </div>
+                                                <div class="disclaimer-info">
+                                                    <p>
+                                                        <strong>AUTHORISED TICKET AGENCIES</strong>
+                                                        <br> Cricket Australia wants to remind fans around the country that the
+                                                        only way to ensure they receive legitimate tickets and at the official
+                                                        sale price for events at MCG, SCG, Adelaide Oval, Blundstone Arena,
+                                                        Manuka Oval, the Gabba and Metricon Stadium is to purchase via our
+                                                        authorised ticketing agency Ticketek.</p>
+                                                    <p>
+                                                        Fans who purchase tickets from unauthorised resellers risk paying too much and having their tickets to matches cancelled,
+                                                        which is why it is highly recommended to only purchase from Cricket
+                                                        Australia’s authorised ticket agencies.
+                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
-
-
-                                        <div id="secondaryContainer">
-                                        </div>
-
                                     </div>
 
 
 
-
-
-
-
-
-                                    <!--  NEW SHIT ENDS HERE -->
-
+                                </div>
 
 
 
@@ -1641,7 +1626,7 @@
 
 
 
-
+                                <!--  NEW SHIT ENDS HERE -->
 
 
 
@@ -1658,210 +1643,217 @@
 
 
 
-                                    <div id="ticketekMedRecCont">
-                                        <a href="#" aria-label="close dialog" class="close">X</a>
-                                        <div id="ticketekMedRec">
-                                            <img src="http://premier.ticketek.com.au/images/2013/logo.png" class="ticketekMedRecLogo" alt="Ticketek" />
-                                            <div id="ticketekMedRecText"></div>
-                                            <div class="JoinSign">
-                                                <a id="joinMedRec" class="ticketekMedRecLink blueGradientButton" href="javascript:void(0)">Join My Ticketek Today</a>
-                                                <div class="or">
-                                                    <span class="line"></span>
-                                                    <span class="text">OR</span>
-                                                    <span class="line"></span>
-                                                </div>
-                                                <a id="signInMedRec" class="ticketekMedRecLink blueGradientButton" href="javascript:void(0)">Sign In To Your Account</a>
+
+
+
+
+
+
+
+
+
+
+                                <div id="ticketekMedRecCont">
+                                    <a href="#" aria-label="close dialog" class="close">X</a>
+                                    <div id="ticketekMedRec">
+                                        <img src="http://premier.ticketek.com.au/images/2013/logo.png" class="ticketekMedRecLogo" alt="Ticketek" />
+                                        <div id="ticketekMedRecText"></div>
+                                        <div class="JoinSign">
+                                            <a id="joinMedRec" class="ticketekMedRecLink blueGradientButton" href="javascript:void(0)">Join My Ticketek Today</a>
+                                            <div class="or">
+                                                <span class="line"></span>
+                                                <span class="text">OR</span>
+                                                <span class="line"></span>
                                             </div>
+                                            <a id="signInMedRec" class="ticketekMedRecLink blueGradientButton" href="javascript:void(0)">Sign In To Your Account</a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <!-- END content shell inner -->
+                        </div>
+                        <!-- END content shell inner -->
 
 
-                            <script type="text/javascript">
-                                /*<![CDATA[*/
-                                $(document).ready(function () {
-                                    /*$(window).bind('scroll', function(e){*/
-                                    /*   var content = $('#contentShell');
-                                       var minheight = content.css("min-height");*/
-                                    /*var height = content.height();*/
-                                    /*  var height = content.css("height");
-                                      if (height == minheight)
-                                      {*/
-                                    /*adjust the backtotopbar position to the bottom of the content*/
-                                    /*   var backtotopbar = $('#backToTopBar')
-                                       backtotopbar.css("position", "absolute")
-                                       backtotopbar.css("top", 770);
-                                    }*/
-                                    $('#backToTopBar').addClass('showUp');
-                                    /* })*/
-                                });
-                                /*]]>*/
-                            </script>
+                        <script type="text/javascript">
+                            /*<![CDATA[*/
+                            $(document).ready(function () {
+                                /*$(window).bind('scroll', function(e){*/
+                                /*   var content = $('#contentShell');
+                                   var minheight = content.css("min-height");*/
+                                /*var height = content.height();*/
+                                /*  var height = content.css("height");
+                                  if (height == minheight)
+                                  {*/
+                                /*adjust the backtotopbar position to the bottom of the content*/
+                                /*   var backtotopbar = $('#backToTopBar')
+                                   backtotopbar.css("position", "absolute")
+                                   backtotopbar.css("top", 770);
+                                }*/
+                                $('#backToTopBar').addClass('showUp');
+                                /* })*/
+                            });
+                            /*]]>*/
+                        </script>
 
-                            <div id="backToTopBar" class="backToTopDiv">
-                                <div id="rightAnchordiv" class="rightAnchor">
-                                    <a href="javascript:smoothScroll()">BACK TO TOP&nbsp;&nbsp;
-                                        <img alt="Ticketek" src="http://premier.ticketek.com.au/images/Arrow-90.png" width="15" height="15" />
-                                    </a>
-                                </div>
+                        <div id="backToTopBar" class="backToTopDiv">
+                            <div id="rightAnchordiv" class="rightAnchor">
+                                <a href="javascript:smoothScroll()">BACK TO TOP&nbsp;&nbsp;
+                                    <img alt="Ticketek" src="http://premier.ticketek.com.au/images/Arrow-90.png" width="15" height="15" />
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- START footer wrapper -->
+
+
+                        <div id="wrapFooter" class="">
+                            <div id="footerBannerSpaceNew" class="footerBannerSpaceNew">
+                                <div id="div-gpt-ad-1442815847039-1" class="adLeaderboardLow"></div>
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerPartners" class="footerPartners">
+
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerAbout" class="footerAbout">
+                                <h3>About Ticketek</h3>
+                                <p>With over 35 years' experience ticketing the biggest live events and venues in Australia,
+                                    Ticketek is the leading ticketing partner to the sports and live entertainment industry
+                                    and operates Australia's most advanced multi-channel ticket sales and distribution network.
+                                </p>
+                                <p>A truly digital company, ticketek.com.au is Australia's number one Entertainment Events website,
+                                    with a market leading mobile platform that gives customers the ability to browse, buy
+                                    and deliver tickets on their phone, through both the mobile site and iPhone app. Ticketek
+                                    also offers a dedicated customer care team, and operates over 75 agencies outlets throughout
+                                    Australia.
+                                </p>
+                                <p>Ticketek sells over 23 million tickets to more than 20,000 events each year, including concerts,
+                                    sports, theatre, musicals, festivals, exhibitions, experiences and family events.
+                                </p>
+                                <p>Ticketek provides ticketing services to Australia's premier venues including ANZ Stadium,
+                                    Qudos Bank Arena, Sydney Cricket Ground, Allianz Stadium, Melbourne Cricket Ground, Rod
+                                    Laver Arena, Her Majesty's Theatre, Suncorp Stadium, Brisbane Entertainment Centre, Metricon
+                                    Stadium, Newcastle Entertainment Centre, GIO Stadium, Adelaide Entertainment Centre,
+                                    Adelaide Oval, Regal Theatre and Perth Arena. Ticketek also sells tickets to some of
+                                    Australia's most prominent events including the Australian Open Tennis Tournament.
+                                </p>
+                                <p>Ticketek Australia has offices in Sydney, Melbourne, Adelaide, Brisbane, Canberra, Gold Coast,
+                                    Perth.
+                                </p>
                             </div>
 
-                            <!-- START footer wrapper -->
-
-
-                            <div id="wrapFooter" class="">
-                                <div id="footerBannerSpaceNew" class="footerBannerSpaceNew">
-                                    <div id="div-gpt-ad-1442815847039-1" class="adLeaderboardLow"></div>
-                                </div>
-                                <div id="ctl00_ctl00_uiFooter_footerPartners" class="footerPartners">
-
-                                </div>
-                                <div id="ctl00_ctl00_uiFooter_footerAbout" class="footerAbout">
-                                    <h3>About Ticketek</h3>
-                                    <p>With over 35 years' experience ticketing the biggest live events and venues in Australia,
-                                        Ticketek is the leading ticketing partner to the sports and live entertainment industry
-                                        and operates Australia's most advanced multi-channel ticket sales and distribution
-                                        network.
-                                    </p>
-                                    <p>A truly digital company, ticketek.com.au is Australia's number one Entertainment Events
-                                        website, with a market leading mobile platform that gives customers the ability to
-                                        browse, buy and deliver tickets on their phone, through both the mobile site and
-                                        iPhone app. Ticketek also offers a dedicated customer care team, and operates over
-                                        75 agencies outlets throughout Australia.
-                                    </p>
-                                    <p>Ticketek sells over 23 million tickets to more than 20,000 events each year, including
-                                        concerts, sports, theatre, musicals, festivals, exhibitions, experiences and family
-                                        events.
-                                    </p>
-                                    <p>Ticketek provides ticketing services to Australia's premier venues including ANZ Stadium,
-                                        Qudos Bank Arena, Sydney Cricket Ground, Allianz Stadium, Melbourne Cricket Ground,
-                                        Rod Laver Arena, Her Majesty's Theatre, Suncorp Stadium, Brisbane Entertainment Centre,
-                                        Metricon Stadium, Newcastle Entertainment Centre, GIO Stadium, Adelaide Entertainment
-                                        Centre, Adelaide Oval, Regal Theatre and Perth Arena. Ticketek also sells tickets
-                                        to some of Australia's most prominent events including the Australian Open Tennis
-                                        Tournament.
-                                    </p>
-                                    <p>Ticketek Australia has offices in Sydney, Melbourne, Adelaide, Brisbane, Canberra, Gold
-                                        Coast, Perth.
-                                    </p>
-                                </div>
-
-                                <div id="ctl00_ctl00_uiFooter_footerCompany" class="footerCompany">
-                                    <h3>
-                                        Quick Links
-                                    </h3>
-                                    <div class="tktFooterOldNavigation">
-                                        <ul>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/aboutus.aspx">About Ticketek</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/content/help/contactus.aspx">Contact Us</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/content/help/faqs.aspx" target="_blank">Frequently Asked Questions</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/giftvouchers/">Gift Vouchers</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://www.facebook.com/TicketekAustralia">Ticketek On Facebook</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="https://twitter.com/Ticketek_AU">Ticketek on Twitter</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://www.youtube.com/user/TicketekAustralia">Ticketek on YouTube</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://instagram.com/ticketekaustralia/">Ticketek on Instagram</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://www.t-e-g.com.au/">Corporate and Media Inquiries</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/shows/show.aspx?sh=TKTWINNER">Competition Winners</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/careers.aspx">Careers at Ticketek</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/security.aspx">Security</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/termsofuse.aspx">Terms of Use</a>
-                                            </li>
-                                            <li>
-                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/termsofsale.aspx">Terms &amp; Conditions</a>
-                                                <li>
-                                                    <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/privacy.aspx">Privacy Policy</a>
-                                                </li>
-                                                <li>
-                                                    <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/collectionstatement.aspx">Collection Statement</a>
-                                                </li>
-                                                <li>
-                                                    <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/advertise-with-us.aspx">Advertise With Us</a>
-                                                </li>
-                                                <li>
-                                                    <a tabindex="-1" href="http://premier.ticketek.co.nz/">Ticketek New Zealand</a>
-                                                </li>
-                                                <li>
-                                                    <a tabindex="-1" href="http://www.purkle.com.au/">Purkle</a>
-                                                </li>
-                                                <li>
-                                                    <a tabindex="-1" href="http://www.teglive.com.au/">TEG Live</a>
-                                                </li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div id="ctl00_ctl00_uiFooter_footerSite" class="footerSite">
-                                    <h3>
-                                        What's On
-                                    </h3>
+                            <div id="ctl00_ctl00_uiFooter_footerCompany" class="footerCompany">
+                                <h3>
+                                    Quick Links
+                                </h3>
+                                <div class="tktFooterOldNavigation">
                                     <ul>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2693">Comedy tickets</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/aboutus.aspx">About Ticketek</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Concert tickets</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/content/help/contactus.aspx">Contact Us</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Exhibition tickets</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/content/help/faqs.aspx" target="_blank">Frequently Asked Questions</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Experience tickets</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/giftvouchers/">Gift Vouchers</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2683">Family &amp; Kids tickets</a>
+                                            <a tabindex="-1" href="http://www.facebook.com/TicketekAustralia">Ticketek On Facebook</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Festival tickets</a>
+                                            <a tabindex="-1" href="https://twitter.com/Ticketek_AU">Ticketek on Twitter</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Lifestyle tickets</a>
+                                            <a tabindex="-1" href="http://www.youtube.com/user/TicketekAustralia">Ticketek on YouTube</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Music tickets</a>
+                                            <a tabindex="-1" href="http://instagram.com/ticketekaustralia/">Ticketek on Instagram</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2053">Sports tickets</a>
+                                            <a tabindex="-1" href="http://www.t-e-g.com.au/">Corporate and Media Inquiries</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2042">Theatre &amp; Arts tickets</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/shows/show.aspx?sh=TKTWINNER">Competition Winners</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/membership/waitlist.aspx">Waitlist events</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/careers.aspx">Careers at Ticketek</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/show.aspx?sh=VISAENTE05">Visa Entertainment</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/security.aspx">Security</a>
                                         </li>
                                         <li>
-                                            <a href="http://premier.ticketek.com.au/shows/show.aspx?sh=GROUPS05">Group Bookings</a>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/termsofuse.aspx">Terms of Use</a>
                                         </li>
+                                        <li>
+                                            <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/termsofsale.aspx">Terms &amp; Conditions</a>
+                                            <li>
+                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/privacy.aspx">Privacy Policy</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/buyers/collectionstatement.aspx">Collection Statement</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="http://premier.ticketek.com.au/Content/aboutus/advertise-with-us.aspx">Advertise With Us</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="http://premier.ticketek.co.nz/">Ticketek New Zealand</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="http://www.purkle.com.au/">Purkle</a>
+                                            </li>
+                                            <li>
+                                                <a tabindex="-1" href="http://www.teglive.com.au/">TEG Live</a>
+                                            </li>
                                     </ul>
-                                    <!--
+                                </div>
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerSite" class="footerSite">
+                                <h3>
+                                    What's On
+                                </h3>
+                                <ul>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2693">Comedy tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Concert tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Exhibition tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Experience tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2683">Family &amp; Kids tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Festival tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2661">Lifestyle tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2048">Music tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2053">Sports tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/genre.aspx?c=2042">Theatre &amp; Arts tickets</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/membership/waitlist.aspx">Waitlist events</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/show.aspx?sh=VISAENTE05">Visa Entertainment</a>
+                                    </li>
+                                    <li>
+                                        <a href="http://premier.ticketek.com.au/shows/show.aspx?sh=GROUPS05">Group Bookings</a>
+                                    </li>
+                                </ul>
+                                <!--
 
 <ul>
 
@@ -1891,282 +1883,282 @@
 
 </ul>
 -->
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerTicketek" class="footerTicketek">
+                                <h3>
+                                    My Ticketek
+                                </h3>
+
+                                <div class="secondaryNav">
+                                    <ul>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/Membership/UpdateAccount_Default.aspx" class=''>My Account</a>
+                                        </li>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/Membership/TransactionHistory.aspx" class=''>Order History</a>
+                                        </li>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/membership/updateaccountpreferences.aspx" class=''>Manage Alerts</a>
+                                        </li>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/content/newsletters.aspx" class=''>My Ticketek Newsletter</a>
+                                        </li>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/Content/Venue.aspx" class=''>Venues</a>
+                                        </li>
+
+                                        <li class=''>
+                                            <a href="http://premier.ticketek.com.au/Content/Outlets/agency.aspx" class=''>Agencies</a>
+                                        </li>
+
+                                        <li class='noBorder'>
+                                            <a href="http://premier.ticketek.com.au/content/help/faqs.aspx" class=''>Help</a>
+                                        </li>
+
+                                    </ul>
                                 </div>
-                                <div id="ctl00_ctl00_uiFooter_footerTicketek" class="footerTicketek">
-                                    <h3>
-                                        My Ticketek
-                                    </h3>
-
-                                    <div class="secondaryNav">
-                                        <ul>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/Membership/UpdateAccount_Default.aspx" class=''>My Account</a>
-                                            </li>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/Membership/TransactionHistory.aspx" class=''>Order History</a>
-                                            </li>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/membership/updateaccountpreferences.aspx" class=''>Manage Alerts</a>
-                                            </li>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/content/newsletters.aspx" class=''>My Ticketek Newsletter</a>
-                                            </li>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/Content/Venue.aspx" class=''>Venues</a>
-                                            </li>
-
-                                            <li class=''>
-                                                <a href="http://premier.ticketek.com.au/Content/Outlets/agency.aspx" class=''>Agencies</a>
-                                            </li>
-
-                                            <li class='noBorder'>
-                                                <a href="http://premier.ticketek.com.au/content/help/faqs.aspx" class=''>Help</a>
-                                            </li>
-
-                                        </ul>
-                                    </div>
-                                    <script type="text/javascript">
-                                        $(".secondaryNav li:first a").empty();
-                                        $('<span class="fa fa-home fa-fw"></span>').appendTo($(
-                                            ".secondaryNav li:first a"));
-                                    </script>
-                                    <div id="socialfooter">
-                                        <ul>
-                                            <li class="facebook">
-                                                <a href="https://www.facebook.com/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1">
-                                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Join us on Facebook" title="Join us on Facebook">
-                                                </a>
-                                            </li>
-                                            <li class="twitter">
-                                                <a href="https://twitter.com/ticketek_au" target="_blank" rel="nofollow" tabindex="-1">
-                                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Follow us on Twitter" title="Follow us on Twitter">
-                                                </a>
-                                            </li>
-                                            <li class="youtube">
-                                                <a href="http://www.youtube.com/user/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1">
-                                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Watch us on YouTube" title="Watch us on YouTube"> </a>
-                                            </li>
-                                            <li class="instagram">
-                                                <a href="http://instagram.com/ticketekaustralia/" target="_blank" rel="nofollow" tabindex="-1">
-                                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Check us out on Instagram" title="Check us out on Instagram"> </a>
-                                            </li>
-                                            <!--<li class="app">
+                                <script type="text/javascript">
+                                    $(".secondaryNav li:first a").empty();
+                                    $('<span class="fa fa-home fa-fw"></span>').appendTo($(
+                                        ".secondaryNav li:first a"));
+                                </script>
+                                <div id="socialfooter">
+                                    <ul>
+                                        <li class="facebook">
+                                            <a href="https://www.facebook.com/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1">
+                                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Join us on Facebook" title="Join us on Facebook">
+                                            </a>
+                                        </li>
+                                        <li class="twitter">
+                                            <a href="https://twitter.com/ticketek_au" target="_blank" rel="nofollow" tabindex="-1">
+                                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Follow us on Twitter" title="Follow us on Twitter">
+                                            </a>
+                                        </li>
+                                        <li class="youtube">
+                                            <a href="http://www.youtube.com/user/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1">
+                                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Watch us on YouTube" title="Watch us on YouTube"> </a>
+                                        </li>
+                                        <li class="instagram">
+                                            <a href="http://instagram.com/ticketekaustralia/" target="_blank" rel="nofollow" tabindex="-1">
+                                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Check us out on Instagram" title="Check us out on Instagram"> </a>
+                                        </li>
+                                        <!--<li class="app">
             <a	onClick="document.location='http://instagram.com/ticketekaustralia/'"	rel="nofollow"	tabindex="-1"	data-softix-track="Homepage.Social.Sidebar.Appls,Click">
                 <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Download our iPhone App" title="Download the iPhone App">
             </a>
           </li>-->
-                                        </ul>
-                                        <ul class="app">
-                                            <li class="dl_iphone app">
-                                                <span></span>
-                                            </li>
-                                            <li class="dl_android app">
-                                                <span></span>
-                                            </li>
-                                        </ul>
-                                    </div>
+                                    </ul>
+                                    <ul class="app">
+                                        <li class="dl_iphone app">
+                                            <span></span>
+                                        </li>
+                                        <li class="dl_android app">
+                                            <span></span>
+                                        </li>
+                                    </ul>
                                 </div>
-                                <div id="ctl00_ctl00_uiFooter_footerSecurity" class="footerSecurity">
-                                    <h3>Security</h3>
-                                    <!-- Begin DigiCert site seal HTML and JavaScript -->
-                                    <div style="width:75px">
-                                        <div id="DigiCertClickID_ r4hnJqJw" data-language="en" style="width:75px;"></div>
-                                    </div>
-                                    <script type="text/javascript">
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerSecurity" class="footerSecurity">
+                                <h3>Security</h3>
+                                <!-- Begin DigiCert site seal HTML and JavaScript -->
+                                <div style="width:75px">
+                                    <div id="DigiCertClickID_ r4hnJqJw" data-language="en" style="width:75px;"></div>
+                                </div>
+                                <script type="text/javascript">
+                                    var
+                                        __dcid = __dcid || [];
+                                    __dcid.push(["DigiCertClickID_ r4hnJqJw", "3",
+                                        "m", "black", "r4hnJqJw"
+                                    ]);
+                                    (function () {
                                         var
-                                            __dcid = __dcid || [];
-                                        __dcid.push(["DigiCertClickID_ r4hnJqJw", "3",
-                                            "m", "black", "r4hnJqJw"
-                                        ]);
-                                        (function () {
-                                            var
-                                                cid = document.createElement("script");
-                                            cid.async = true;
-                                            cid.src =
-                                                "http://premier.ticketek.com.au/seal.digicert.com/seals/cascade/seal.min.js";
-                                            var s = document.getElementsByTagName("script");
-                                            var ls = s[(s.length - 1)];
-                                            ls.parentNode.insertBefore(cid, ls.nextSibling);
-                                        }());
-                                    </script>
-                                    <!-- End DigiCert site seal HTML and JavaScript -->
+                                            cid = document.createElement("script");
+                                        cid.async = true;
+                                        cid.src =
+                                            "http://premier.ticketek.com.au/seal.digicert.com/seals/cascade/seal.min.js";
+                                        var s = document.getElementsByTagName("script");
+                                        var ls = s[(s.length - 1)];
+                                        ls.parentNode.insertBefore(cid, ls.nextSibling);
+                                    }());
+                                </script>
+                                <!-- End DigiCert site seal HTML and JavaScript -->
 
-                                </div>
-                                <div id="ctl00_ctl00_uiFooter_footerSoftix" class="footerSoftix">
-                                    <h3>Powered By</h3>
-                                    <a href="http://www.softix.com" target="_blank">
-                                        <img src="http://premier.ticketek.com.au/images/softix-logo.png" alt="Softix" style="border-width:0px;" />
-                                    </a>
-                                </div>
-                                <div id="ctl00_ctl00_uiFooter_footerVersion" class="footerVersion">
-                                    &copy; 2018 Ticketek Pty Ltd (ABN 92 010 129 110). All rights reserved. Version 5.20 B252 R25
-                                </div>
                             </div>
-
-                            <script src="http://premier.ticketek.com.au/js/footerNew.js" type="text/javascript"></script>
-                            <!-- END footer wrapper -->
+                            <div id="ctl00_ctl00_uiFooter_footerSoftix" class="footerSoftix">
+                                <h3>Powered By</h3>
+                                <a href="http://www.softix.com" target="_blank">
+                                    <img src="http://premier.ticketek.com.au/images/softix-logo.png" alt="Softix" style="border-width:0px;" />
+                                </a>
+                            </div>
+                            <div id="ctl00_ctl00_uiFooter_footerVersion" class="footerVersion">
+                                &copy; 2018 Ticketek Pty Ltd (ABN 92 010 129 110). All rights reserved. Version 5.20 B252 R25
+                            </div>
                         </div>
-                        <!-- END content shell -->
+
+                        <script src="http://premier.ticketek.com.au/js/footerNew.js" type="text/javascript"></script>
+                        <!-- END footer wrapper -->
                     </div>
-                    <!-- SIDE PANEL ADS RIGHT -->
-                    <!-- FCT-617 v2.0 -->
-
-                    <!-- END body wrapper -->
+                    <!-- END content shell -->
                 </div>
+                <!-- SIDE PANEL ADS RIGHT -->
+                <!-- FCT-617 v2.0 -->
+
+                <!-- END body wrapper -->
             </div>
+        </div>
 
 
 
-            <div id="floatingbar-container">
+        <div id="floatingbar-container">
 
 
-                <div class="floatingbar">
-                    <div class="floatingbarInner">
+            <div class="floatingbar">
+                <div class="floatingbarInner">
 
-                        <div class="accountdetails" onmouseover="$('#floatingbar-container').addClass('floatingbar-accountdetailsup')" onmouseout="$('#floatingbar-container').removeClass('floatingbar-accountdetailsup')">
-                            <div class="accountdetailsInner">
-                                <div class="myticketek">My Ticketek</div>
-                                <div class="visitorname">
+                    <div class="accountdetails" onmouseover="$('#floatingbar-container').addClass('floatingbar-accountdetailsup')" onmouseout="$('#floatingbar-container').removeClass('floatingbar-accountdetailsup')">
+                        <div class="accountdetailsInner">
+                            <div class="myticketek">My Ticketek</div>
+                            <div class="visitorname">
 
-                                    <div class="loginWrapper">
+                                <div class="loginWrapper">
 
-                                        <a id="ctl00_ctl00_uiFloatingBar_LoginStatus_LinkButton1" tabindex="-1" href="javascript:__doPostBack(&#39;ctl00$ctl00$uiFloatingBar$LoginStatus$LinkButton1&#39;,&#39;&#39;)">Sign In</a>
-                                        <span class="divide">&nbsp;|&nbsp;</span>
-                                        <a id="ctl00_ctl00_uiFloatingBar_LoginStatus_LinkButton2" tabindex="-1" href="javascript:__doPostBack(&#39;ctl00$ctl00$uiFloatingBar$LoginStatus$LinkButton2&#39;,&#39;&#39;)">Join Now</a>
+                                    <a id="ctl00_ctl00_uiFloatingBar_LoginStatus_LinkButton1" tabindex="-1" href="javascript:__doPostBack(&#39;ctl00$ctl00$uiFloatingBar$LoginStatus$LinkButton1&#39;,&#39;&#39;)">Sign In</a>
+                                    <span class="divide">&nbsp;|&nbsp;</span>
+                                    <a id="ctl00_ctl00_uiFloatingBar_LoginStatus_LinkButton2" tabindex="-1" href="javascript:__doPostBack(&#39;ctl00$ctl00$uiFloatingBar$LoginStatus$LinkButton2&#39;,&#39;&#39;)">Join Now</a>
 
-                                        <div class="signInBar">
-                                            <div class="close">X</div>
-                                            <div class="arrow-up1"></div>
-                                            <div class="arrow-up2"></div>
-                                            <div class="signInBarHdr"></div>
-                                            <div class="signInBarText"></div>
-                                        </div>
-
-
+                                    <div class="signInBar">
+                                        <div class="close">X</div>
+                                        <div class="arrow-up1"></div>
+                                        <div class="arrow-up2"></div>
+                                        <div class="signInBarHdr"></div>
+                                        <div class="signInBarText"></div>
                                     </div>
 
+
                                 </div>
-                            </div>
-                        </div>
-
-
-
-                        <ul id="socialfloat" style="display:none;">
-                            <li class="facebook">
-                                <a href="https://www.facebook.com/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Facebook,Click">
-                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Join us on Facebook" title="Join us on Facebook">
-                                </a>
-                            </li>
-                            <li class="twitter">
-                                <a href="https://twitter.com/ticketek_au" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Twitter,Click">
-                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Follow us on Twitter" title="Follow us on Twitter">
-                                </a>
-                            </li>
-                            <li class="youtube">
-                                <a href="http://www.youtube.com/user/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Youtube,Click">
-                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Watch us on YouTube" title="Watch us on YouTube"> </a>
-                            </li>
-                            <li class="instagram">
-                                <a href="http://instagram.com/ticketekaustralia/" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.instagram,Click">
-                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Check us out on Instagram" title="Check us out on Instagram"> </a>
-                            </li>
-                            <li class="apple">
-                                <a href="https://itunes.apple.com/au/app/ticketek/id454379421?mt=8" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Appls,Click">
-                                    <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Download our iPhone App" title="Download the iPhone App"> </a>
-                            </li>
-                        </ul>
-                        <div class="timeremaining">
-                            &nbsp;
-
-                        </div>
-
-
-                        <div class="myBasket">
-                            <div class="nobasket">
-                                <img alt="Basket" src="http://premier.ticketek.com.au/images/icon_basket_white.png" />
-                            </div>
-                        </div>
-
-
-                        <div id="divRhsAd" class="rhsad">
-                            <div id="ctl00_ctl00_uiFloatingBar_dvRhsAdInner" class="rhsadInner">
 
                             </div>
                         </div>
+                    </div>
 
-                        <div class="clear"></div>
+
+
+                    <ul id="socialfloat" style="display:none;">
+                        <li class="facebook">
+                            <a href="https://www.facebook.com/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Facebook,Click">
+                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Join us on Facebook" title="Join us on Facebook">
+                            </a>
+                        </li>
+                        <li class="twitter">
+                            <a href="https://twitter.com/ticketek_au" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Twitter,Click">
+                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Follow us on Twitter" title="Follow us on Twitter">
+                            </a>
+                        </li>
+                        <li class="youtube">
+                            <a href="http://www.youtube.com/user/TicketekAustralia" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Youtube,Click">
+                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Watch us on YouTube" title="Watch us on YouTube"> </a>
+                        </li>
+                        <li class="instagram">
+                            <a href="http://instagram.com/ticketekaustralia/" target="_blank" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.instagram,Click">
+                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Check us out on Instagram" title="Check us out on Instagram"> </a>
+                        </li>
+                        <li class="apple">
+                            <a href="https://itunes.apple.com/au/app/ticketek/id454379421?mt=8" rel="nofollow" tabindex="-1" data-softix-track="Homepage.Social.Sidebar.Appls,Click">
+                                <img src="http://premier.ticketek.com.au/images/1x1.gif" alt="Download our iPhone App" title="Download the iPhone App"> </a>
+                        </li>
+                    </ul>
+                    <div class="timeremaining">
+                        &nbsp;
 
                     </div>
+
+
+                    <div class="myBasket">
+                        <div class="nobasket">
+                            <img alt="Basket" src="http://premier.ticketek.com.au/images/icon_basket_white.png" />
+                        </div>
+                    </div>
+
+
+                    <div id="divRhsAd" class="rhsad">
+                        <div id="ctl00_ctl00_uiFloatingBar_dvRhsAdInner" class="rhsadInner">
+
+                        </div>
+                    </div>
+
+                    <div class="clear"></div>
+
                 </div>
             </div>
+        </div>
 
-            <script type="text/javascript">
-                $(".floatingbar-accountdetailspopup").mouseover(function () {
-                    $('#floatingbar-container').addClass('floatingbar-accountdetailsup');
-                });
+        <script type="text/javascript">
+            $(".floatingbar-accountdetailspopup").mouseover(function () {
+                $('#floatingbar-container').addClass('floatingbar-accountdetailsup');
+            });
 
-                $(".floatingbar-accountdetailspopup").mouseout(function () {
-                    $('#floatingbar-container').removeClass('floatingbar-accountdetailsup');
-                });
+            $(".floatingbar-accountdetailspopup").mouseout(function () {
+                $('#floatingbar-container').removeClass('floatingbar-accountdetailsup');
+            });
 
-                $("#divRhsAd").mouseover(function () {
-                    $('#floatingbar-container').addClass('floatingbar-rhsup');
-                });
+            $("#divRhsAd").mouseover(function () {
+                $('#floatingbar-container').addClass('floatingbar-rhsup');
+            });
 
-                $("#divRhsAd").mouseout(function () {
-                    $('#floatingbar-container').removeClass('floatingbar-rhsup');
-                });
+            $("#divRhsAd").mouseout(function () {
+                $('#floatingbar-container').removeClass('floatingbar-rhsup');
+            });
 
-                $(".floatingbar-rhsPopupInner").mouseover(function () {
-                    $('#floatingbar-container').addClass('floatingbar-rhsup');
-                });
+            $(".floatingbar-rhsPopupInner").mouseover(function () {
+                $('#floatingbar-container').addClass('floatingbar-rhsup');
+            });
 
-                $(".floatingbar-rhsPopupInner").mouseout(function () {
-                    $('#floatingbar-container').removeClass('floatingbar-rhsup');
-                });
+            $(".floatingbar-rhsPopupInner").mouseout(function () {
+                $('#floatingbar-container').removeClass('floatingbar-rhsup');
+            });
 
-                //Clone floating bar basket to main nav
-                $('#floatingbar-container .nobasket').length > 0 ?
-                    $('#mainNavigation ul').append($("<li>")).find('li:last').prepend($(
-                        '<div class="nobasket"><img alt="Basket" src="http://premier.ticketek.com.au/images/icon_basket_white_Orig.png"></div>'
-                    )) :
-                    $('#mainNavigation ul').append($("<li>")).find('li:last').prepend($(
-                            '#floatingbar-container .myBasket')
-                        .clone());
-            </script>
-
-
-
+            //Clone floating bar basket to main nav
+            $('#floatingbar-container .nobasket').length > 0 ?
+                $('#mainNavigation ul').append($("<li>")).find('li:last').prepend($(
+                    '<div class="nobasket"><img alt="Basket" src="http://premier.ticketek.com.au/images/icon_basket_white_Orig.png"></div>'
+                )) :
+                $('#mainNavigation ul').append($("<li>")).find('li:last').prepend($(
+                        '#floatingbar-container .myBasket')
+                    .clone());
+        </script>
 
 
-            <script type="text/javascript">
-                //<![CDATA[
-                (function () {
-                    var fn = function () {
-                        $get("ctl00_ctl00_uiScriptManager_HiddenField").value = '';
-                        Sys.Application.remove_init(fn);
-                    };
-                    Sys.Application.add_init(fn);
-                })();
-                Sys.Application.add_init(function () {
-                    $create(Sys.Extended.UI.CollapsiblePanelBehavior, {
-                        "ClientStateFieldID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoCollapser_ClientState",
-                        "CollapseControlID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoHeader",
-                        "CollapsedSize": 0,
-                        "ExpandControlID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoHeader",
-                        "ExpandedSize": 0,
-                        "SuppressPostBack": true,
-                        "id": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoCollapser"
-                    }, null, null, $get(
-                        "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoBody"));
-                });
-                //]]>
-            </script>
+
+
+
+        <script type="text/javascript">
+            //<![CDATA[
+            (function () {
+                var fn = function () {
+                    $get("ctl00_ctl00_uiScriptManager_HiddenField").value = '';
+                    Sys.Application.remove_init(fn);
+                };
+                Sys.Application.add_init(fn);
+            })();
+            Sys.Application.add_init(function () {
+                $create(Sys.Extended.UI.CollapsiblePanelBehavior, {
+                    "ClientStateFieldID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoCollapser_ClientState",
+                    "CollapseControlID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoHeader",
+                    "CollapsedSize": 0,
+                    "ExpandControlID": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoHeader",
+                    "ExpandedSize": 0,
+                    "SuppressPostBack": true,
+                    "id": "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoCollapser"
+                }, null, null, $get(
+                    "ctl00_ctl00_uiBodyMain_uiBodyRight_uiShowUmbrellaRHColumn_uiOtherInfoBody"));
+            });
+            //]]>
+        </script>
     </form>
 
     <!--Adding data to the AppDynamics snapshot -->
