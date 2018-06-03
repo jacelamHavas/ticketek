@@ -998,9 +998,10 @@
                                             }
 
                                             .back-link a {
-                                                color: #6AC63F;
+                                                color: #407115 !important;
                                                 text-decoration: underline;
                                                 font-size: 16px;
+                                                cursor: pointer;
                                             }
 
                                             .claridge-button,
@@ -1048,356 +1049,362 @@
 
                                         <div id="eventsPageContainerInner">
                                             <div class="specialEventsInfo">
-                                                <div class="header-text">
-                                                    <h2>Browse all match days by state:</h2>
-                                                </div>
-                                                <div class="tab-container">
 
-                                                    <a data-attr="#NSW" class="tab-item active">NSW</a>
-
-                                                    <a data-attr="#VIC" class="tab-item">VIC</a>
-
-                                                    <a data-attr="#QLD" class="tab-item">QLD</a>
-
-                                                    <a data-attr="#ACT" class="tab-item">ACT</a>
-
-                                                    <a data-attr="#SA" class="tab-item">SA </a>
-
-                                                    <a data-attr="#WA" class="tab-item">WA </a>
-
-                                                    <a data-attr="#TAS" class="tab-item">TAS</a>
-
-                                                </div>
-
-                                                <div class="header-text">
-                                                    <h2>Select your event in
-                                                        <span id="region"></span>:</h2>
-                                                </div>
-                                                <div class="match-container">
-
-
-
-                                                    <div id="NSW" class="show hide">
-                                                        <div class="match">
-                                                            <h4>Gillete T20 INTL Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Sydney Cricket Ground</div>
-                                                                <div>25 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Sydney Cricket Ground</div>
-                                                                <div>3-9 January 2019</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (3 Jan)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (4 Jan)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (5 Jan)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (6 Jan)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Sydney Cricket Ground</div>
-                                                                <div>12 January 2019</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
+                                                <div id="nav-page" class="show">
+                                                    <div class="header-text">
+                                                        <h2>Browse all match days by state:</h2>
                                                     </div>
+                                                    <div class="tab-container">
 
+                                                        <a data-attr="NSW" class="tab-item">NSW</a>
 
+                                                        <a data-attr="VIC" class="tab-item">VIC</a>
 
-                                                    <div id="VIC" class="hide">
-                                                        <div class="match">
-                                                            <h4>Gillete T20 INTL Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Melbourne Cricket Ground</div>
-                                                                <div> 23 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Melbourne Cricket Ground</div>
-                                                                <div> 26-30 December 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (26 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (27 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (28 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (29 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Melbourne Cricket Ground</div>
-                                                                <div>18 January 2019</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
+                                                        <a data-attr="QLD" class="tab-item">QLD</a>
+
+                                                        <a data-attr="ACT" class="tab-item">ACT</a>
+
+                                                        <a data-attr="SA" class="tab-item">SA </a>
+
+                                                        <a data-attr="WA" class="tab-item">WA </a>
+
+                                                        <a data-attr="TAS" class="tab-item">TAS</a>
+
                                                     </div>
+                                                </div>
+
+                                                <div id="match-page" class="hide">
+                                                    <div class="header-text">
+                                                        <h2>Select your event in
+                                                            <span id="region"></span>:</h2>
+                                                    </div>
+                                                    <div class="match-container">
 
 
 
-                                                    <div id="QLD" class="hide">
-                                                        <div class="match">
-                                                            <h4>Gillette T20 INTL Series v South Africa</h4>
-                                                            <div class="info">
-                                                                <div class="event">Metricon Stadium, Gold Coast</div>
-                                                                <div> 17 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Gillete T20 INTL Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event"> The Gabba, Brisbane </div>
-                                                                <div> 21 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v Sri Lanka</h4>
-                                                            <div class="info">
-                                                                <div class="event">: The Gabba, Brisbane</div>
-                                                                <div> 24-28 January 2019
+                                                        <div id="NSW" class="show hide">
+                                                            <div class="match">
+                                                                <h4>Gillete T20 INTL Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Sydney Cricket Ground</div>
+                                                                    <div>25 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
                                                                 </div>
                                                             </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (24 Jan)
+                                                            <div class="match">
+                                                                <h4>Test Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Sydney Cricket Ground</div>
+                                                                    <div>3-9 January 2019</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (3 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (4 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (5 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (6 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
                                                             </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (25 Jan)
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Sydney Cricket Ground</div>
+                                                                    <div>12 January 2019</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
                                                             </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (26 Jan)
+                                                        </div>
+
+
+
+                                                        <div id="VIC" class="hide">
+                                                            <div class="match">
+                                                                <h4>Gillete T20 INTL Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Melbourne Cricket Ground</div>
+                                                                    <div> 23 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
                                                             </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (27 Jan)
+                                                            <div class="match">
+                                                                <h4>Test Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Melbourne Cricket Ground</div>
+                                                                    <div> 26-30 December 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (26 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (27 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (28 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (29 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
                                                             </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Melbourne Cricket Ground</div>
+                                                                    <div>18 January 2019</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div id="QLD" class="hide">
+                                                            <div class="match">
+                                                                <h4>Gillette T20 INTL Series v South Africa</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Metricon Stadium, Gold Coast</div>
+                                                                    <div> 17 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Gillete T20 INTL Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> The Gabba, Brisbane </div>
+                                                                    <div> 21 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Test Series v Sri Lanka</h4>
+                                                                <div class="info">
+                                                                    <div class="event">The Gabba, Brisbane</div>
+                                                                    <div> 24-28 January 2019
+                                                                    </div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (24 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (25 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (26 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (27 Jan)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+                                                        <div id="ACT" class="show">
+                                                            <div class="match">
+                                                                <h4>PM's XI v South Africa ODI</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Manuka Oval</div>
+                                                                    <div> 7 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Test Series v Sri Lanka</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Manuka Oval</div>
+                                                                    <div>1-5 February 2019</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (1 Feb)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (2 Feb)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (3 Feb)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (4 Feb)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+                                                        <div id="SA" class="hide">
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v South Africa</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Adelaide Oval</div>
+                                                                    <div> 9 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Test Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Adelaide Oval</div>
+                                                                    <div> 6-10 December 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (6 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (7 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (8 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (9 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Adelaide Oval</div>
+                                                                    <div>15 January 2019</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+
+                                                        <div id="WA" class="hide">
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v South Africa</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Perth Stadium</div>
+                                                                    <div> 4 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                            <div class="match">
+                                                                <h4>Test Series v India</h4>
+                                                                <div class="info">
+                                                                    <div class="event"> Perth Stadium</div>
+                                                                    <div> 14-18 December 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 1 Tickets (14 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 2 Tickets (15 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 3 Tickets (16 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Day 4 Tickets (17 Dec)
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+
+
+                                                        <div id="TAS" class="hide">
+                                                            <div class="match">
+                                                                <h4>Gillette ODI Series v South Africa</h4>
+                                                                <div class="info">
+                                                                    <div class="event">Blundstone Arena, Hobart</div>
+                                                                    <div>11 November 2018</div>
+                                                                </div>
+                                                                <div class=" buy-button claridge-button green">
+                                                                    Get Tickets
+                                                                </div>
+                                                                <div class=" buy-button claridge-button blue">
+                                                                    More Info
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-
-
-
-                                                    <div id="ACT" class="show">
-                                                        <div class="match">
-                                                            <h4>PM's XI v South Africa ODI</h4>
-                                                            <div class="info">
-                                                                <div class="event">Manuka Oval</div>
-                                                                <div> 7 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v Sri Lanka</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Manuka Oval</div>
-                                                                <div>1-5 February 2019</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (1 Feb)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (2 Feb)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (3 Feb)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (4 Feb)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
-
-                                                    <div id="SA" class="hide">
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v South Africa</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Adelaide Oval</div>
-                                                                <div> 9 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event">Adelaide Oval</div>
-                                                                <div> 6-10 December 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (6 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (7 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (8 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (9 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Adelaide Oval</div>
-                                                                <div>15 January 2019</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
-
-
-                                                    <div id="WA" class="hide">
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v South Africa</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Perth Stadium</div>
-                                                                <div> 4 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                        <div class="match">
-                                                            <h4>Test Series v India</h4>
-                                                            <div class="info">
-                                                                <div class="event"> Perth Stadium</div>
-                                                                <div> 14-18 December 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 1 Tickets (14 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 2 Tickets (15 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 3 Tickets (16 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Day 4 Tickets (17 Dec)
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
-                                                    </div>
-
-
-
-
-                                                    <div id="TAS" class="hide">
-                                                        <div class="match">
-                                                            <h4>Gillette ODI Series v South Africa</h4>
-                                                            <div class="info">
-                                                                <div class="event">Blundstone Arena, Hobart</div>
-                                                                <div>11 November 2018</div>
-                                                            </div>
-                                                            <div class=" buy-button claridge-button green">
-                                                                Get Tickets
-                                                            </div>
-                                                            <div class=" buy-button claridge-button blue">
-                                                                More Info
-                                                            </div>
-                                                        </div>
+                                                    <div class="back-link">
+                                                        <a id="backlink">back to all states</a>
                                                     </div>
                                                 </div>
-                                                <div class="back-link">
-                                                    <a href="">back to all states</a>
-                                                </div>
+
                                             </div>
                                         </div>
                                     </div>
@@ -1711,3 +1718,18 @@
 </body>
 
 </html>
+
+<script>
+    $('#eventsPageContainerInner .tab-item').on('click', function (e) {
+        $('#eventsPageContainerInner #nav-page').removeClass('show').addClass('hide');
+        $('#eventsPageContainerInner #match-page').removeClass('hide').addClass('show');
+        var current = $(this).data('attr', current);
+        $("#eventsPageContainerInner .match-container").children().removeClass('show').addClass('hide');
+        $("#eventsPageContainerInner .match-container").find(`#${current}`).addClass('show').removeClass('hide');
+        $("#eventsPageContainerInner").find('#region').html(current);
+    });
+    $('#eventsPageContainerInner #backlink').on('click', function (e) {
+        $('#eventsPageContainerInner #match-page').removeClass('show').addClass('hide');
+        $('#eventsPageContainerInner #nav-page').removeClass('hide').addClass('show');
+    });
+</script>
