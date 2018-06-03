@@ -1,9 +1,11 @@
+$('.eventModuleWrap').parent().replaceWith(html);
+
 $('#eventsPageContainerInner .tab-item').on('click', function (e) {
     $('#eventsPageContainerInner #nav-page').removeClass('show').addClass('hide');
     $('#eventsPageContainerInner #match-page').removeClass('hide').addClass('show');
-    var current = $(this).data('attr', current);
+    var current = $(this).data('attr');
     $("#eventsPageContainerInner .match-container").children().removeClass('show').addClass('hide');
-    $("#eventsPageContainerInner .match-container").find(`#${current}`).addClass('show').removeClass('hide');
+    $("#eventsPageContainerInner .match-container").find('#' + current).addClass('show').removeClass('hide');
     $("#eventsPageContainerInner").find('#region').html(current);
 });
 $('#eventsPageContainerInner #backlink').on('click', function (e) {
