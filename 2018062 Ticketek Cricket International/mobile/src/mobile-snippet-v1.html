@@ -9,15 +9,58 @@
 
     <div class="commonModule umbrellaSynopsis">
         <img src="https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx205776.jpg" />
+        <div style="position: relative;">
+            <p>
+                <span style="font-weight: 700;
+            color: #fff;
+            display: block;
+            font-size: 14px;
+            background: #2c5f20;
+            padding: 5px;
+            margin-top: -10px;
+            text-align: center;">Countdown to the 2018/19
+                    <br>Summer of Cricket</span>
+            </p>
 
+            <div id="clockdiv" class="countdown">
+                <div>
+                    <div class="smalltext">Days</div>
+                    <span class="days"></span>
+                </div>
+
+                <div>
+                    <div class="smalltext">Hours</div>
+                    <span class="hours"></span>
+                </div>
+
+                <div>
+                    <div class="smalltext">Minutes</div>
+                    <span class="minutes"></span>
+                </div>
+
+                <div>
+                    <div class="smalltext">Seconds</div>
+                    <span class="seconds"></span>
+                </div>
+            </div>
+        </div>
 
         <div class="cricket-container">
 
 
             <div id="eventsPageContainer">
-
-                <script type="text/javascript" src="http://premier.ticketek.com.au/js/Video.js?d=151005"></script>
+                <script type="text/javascript" src="https://premier.ticketek.com.au/js/countdown.js"></script>
+                <script type="text/javascript" src="https://premier.ticketek.com.au/js/Video.js?d=151005"></script>
                 <style>
+                                    body,
+                                    #content {
+                                        background-color: #fff !important;
+                                    }
+
+                                    .advertising {
+                                        display: none !important;
+                                    }
+                                    
                     #eventsPageContainer {
                         float: left;
                         width: 100% !important;
@@ -102,7 +145,7 @@
                         padding: 0 5%;
                     }
 
-                    .hide {
+                    .specialEventsInfo .hide {
                         display: none !important;
                     }
 
@@ -217,9 +260,11 @@
                         cursor: pointer;
                         font-family: 'Open Sans', Arial, Helvetica, Sans-serif;
                     }
+
                     a.buy-button:hover {
-                        color: #fff!important;
+                        color: #fff !important;
                     }
+
                     .claridge-button.green {
                         background-color: #6AC63F;
                     }
