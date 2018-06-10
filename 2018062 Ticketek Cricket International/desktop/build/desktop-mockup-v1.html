@@ -1655,7 +1655,7 @@
                                                     $(this).addClass('active');
                                                     var current = $(this).data('attr', current);
                                                     $("#eventsPageContainerInner .match-container").children().removeClass('show').addClass('hide');
-                                                    $("#eventsPageContainerInner .match-container").find(`#${current}`).addClass('show').removeClass(
+                                                    $("#eventsPageContainerInner .match-container").find('#' + current).addClass('show').removeClass(
                                                         'hide');
                                                 });
                                                 var deadline = 'Wed, 31 Oct 2018 00:01:00 GMT+1000';
