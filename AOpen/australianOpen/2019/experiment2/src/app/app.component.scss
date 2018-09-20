@@ -1,0 +1,53 @@
+.col-1 {
+    width: 25%;
+}
+
+.col-2 {
+    width: 50%;
+}
+
+.col-3 {
+    width: 33%;
+}
+
+.col-4 {
+    width: 100%;
+}
+
+.toggle {
+    padding: 2px 4px;
+}
+
+.p-1 {
+    padding: 0 15px;
+}
+
+.p-2 {
+    padding: 0 45px; 
+}
+
+.title {
+    min-height: 60px;
+}
+
+.action {
+    display: inherit;
+    font-size: 14px;
+    text-decoration: underline;
+}
+.row-items {
+    line-height: 3rem;
+    font-weight: 500;
+}
+.row-items .item {
+    font-size: 16px;
+    float: left;
+    width: 33%;
+}
+
+.stripes:nth-child(even) {background: #eee}
+
+.btn {
+    padding: 7px 40px;
+    font-size: 13px;
+}

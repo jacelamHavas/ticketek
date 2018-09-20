@@ -1,0 +1,40 @@
+<div class="app-wrapper">
+  <div class="container" *ngIf="!selectedVenue && !selectedProduct">
+    <h1 class="blue text-center uppercase">SELECT YOUR AUSTRALIAN OPEN EXPERIENCE</h1>
+    <div class="col-3" *ngFor="let venue of eventList" (click)="selectedVenue = venue; selectedProduct = null;">
+      <div class="p-1">
+        <div class="toggle bg {{venue.btnClass}}">
+          <h2 class="title">{{venue.venueString}}</h2>
+          <h2 class="text-muted">{{venue.dateString}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container p-2" *ngIf="selectedVenue && !selectedProduct">
+      <h1 class="blue text-center uppercase">{{selectedVenue.venueString}}</h1>
+      <p class="text-center">{{selectedVenue.venueDescription}}</p>
+      <a class="blue text-center action mb-1" (click)="selectedVenue = null">back to all arenas</a>
+      <div class="col-2" *ngFor="let product of selectedVenue.products"  (click)="selectedProduct = product">
+          <div class="p-1">
+              <div class="toggle bg {{product.btnClass}}">
+                <h2 class="title">{{product.title}}</h2>
+                <h2 class="text-muted">{{product.dateString}}</h2>
+              </div>
+            </div>
+      </div>
+    </div>
+    <div class="container p-2" *ngIf="selectedProduct">
+        <h1 class="blue text-center uppercase">{{selectedVenue.venueString}} - {{selectedProduct.title}}</h1>
+        <p class="text-center">{{selectedVenue.venueDescription}}</p>
+        <a class="blue text-center action mb-1" (click)="selectedProduct = null">back to all sessions</a>
+        <div class="col-4 stripes" *ngFor="let event of selectedProduct.times">
+                <div class="row-items p-1">
+                  <div class="item text-left">{{event.dateString}}</div>
+                  <div class="item text-left">{{event.description}}</div>
+                  <div class="item text-right"><a class="btn bg {{event.btnClass}}" href="{{event.btnLink}}">{{event.btnString}}</a></div>
+                </div>
+        </div>
+      </div>
+
+
+</div>
