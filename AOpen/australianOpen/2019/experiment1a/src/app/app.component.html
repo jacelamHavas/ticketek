@@ -1,0 +1,39 @@
+<div class="app-wrapper">
+  <div class="col-4 text-left mb-1">
+    <select (change)="changingDate($event)">
+      <option *ngFor="let date of eventList">{{date.dayString}}</option>
+    </select>
+    <select (change)="changingVenue($event)">
+      <option [value]="null">Select a venue</option>
+      <option *ngFor="let venue of dateSelected.venues">{{venue.venueString}}</option>
+    </select>
+  </div>
+  <div class="" *ngIf="venueSelect == null">
+    <div class="container">
+      <div *ngIf="dateSelected">
+        <div class="col-1" *ngFor="let venue of dateSelected.venues">
+          <h2>{{venue.venueString}}</h2>
+          <p class="description">{{venue.venueDescription}}</p>
+          <div class="event" *ngFor="let event of venue.events">
+            <h3>{{event.title}}</h3>
+            <a class="tickets-info {{event.btnClass}}" href="{{event.btnLink}}">{{event.btnTitle}}</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="" *ngIf="dateVenue">
+    <div class="container">
+      <h2 class="text-left m-1">{{dateVenue.venueString}}</h2>
+      <p class="description text-center">{{dateVenue.venueDescription}}</p>
+    </div>
+    <div class="container">
+      <div class="col-1" *ngFor="let event of dateVenue.events">
+        <div class="event">
+          <h3>{{event.title}}</h3>
+          <a class="tickets-info {{event.btnClass}}" href="{{event.btnLink}}">{{event.btnTitle}}</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

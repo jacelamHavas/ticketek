@@ -1,0 +1,106 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    font:62.5% 'Open Sans', Arial, Helvetica, sans-serif;
+}
+
+.app-wrapper {
+    width: 100%;
+    float: left;
+}
+
+.m-1 {
+    margin: 15px;
+}
+
+.mb-1 {
+    margin-bottom: 15px;
+}
+
+h2 {
+    background: #0091d2;
+    color: #fff;
+    padding: 12px 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 15px;
+    color: #555!important;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+.description {
+    min-height: 70px;
+}
+    
+.event {
+    margin-bottom: 20px;
+    float: left;
+    width: 100%;
+}
+
+.get-tickets {
+    color: #fff;
+}
+
+.col-1,.col-2,.col-3,.col-4 {
+    display: inline-table;
+    text-align: center;
+}
+
+.text-center { 
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.tickets-info {
+    color: #fff;
+    font-size: 15px;
+    background: #6AC63F;
+    padding: 10px 35px;
+    margin-top: 10px;
+}
+
+a.tickets-info.dark-blue {
+    background-color: #003A5D;
+}
+
+a.tickets-info.blue {
+    background-color: #0091D2;
+}
+
+a.tickets-info.orange {
+    background-color: #F7981D;
+}
+
+a.tickets-info.lime {
+    background-color: #d7D700;
+}
+
+a.tickets-info.yellow {
+    background-color: #FFDE14;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 5px;
+    text-align: center;
+}
+
+select {
+    border: 1px solid #0091D2;
+    margin-right: 20px;
+    padding: 5px 10px;
+    font-size: 16px;
+    min-width: 200px;
+}
