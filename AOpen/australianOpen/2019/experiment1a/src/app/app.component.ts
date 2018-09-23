@@ -128,7 +128,7 @@ declare const eventCalendarList: any;
 // ];
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-experiment1',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
