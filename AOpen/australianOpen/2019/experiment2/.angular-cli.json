@@ -21,9 +21,6 @@
       "styles": [
         "styles.css"
       ],
-      "scripts": [
-        "events.js"
-      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
