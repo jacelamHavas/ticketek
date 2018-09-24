@@ -1,121 +1,170 @@
 const eventCalendarList = [
   {
-    'dayName': 'Mon',
-    'dayString': '13 Jan 2019',
-    'dayNo': 13,
-    'venues': [
+    'venue': 'MCA',
+    'venueString': 'Margaret Court Arena',
+    'venueDescription': 'Margaret Court Arena Description',
+    'dateString': 'Jan something',
+    'btnClass': 'lime',
+    'products': [
       {
-        'venue': 'RLA',
-        'venueString': 'Rod Laver Arena',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
-        'events': [
+        'title': 'Multiday Session',
+        'product': 'Single Day Session',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'blue',
+        'times': [
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
-            'btnLink': 'http://google.com'
+            'btnLink': 'google.com'
           },
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'orange',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
         ]
       },
       {
-        'venue': 'MCA',
-        'venueString': 'Margaret Court Arena',
-        'venueDescription': 'Margaret Court Arena Description',
-        'events': [
+        'title': 'Multiday Night',
+        'product': 'SDS',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'dark-blue',
+        'times': [
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
         ]
       },
-      {
-        'venue': 'GP',
-        'venueString': 'Ground Pass',
-        'venueDescription': 'Content',
-        'events': [
-          {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
-          },
-          {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
-          },
-        ]
-      }
     ]
   },
   {
-    'dayName': 'Tue',
-    'dayString': '14 Jan 2019',
-    'dayNo': 14,
-    'venues': [
+    'venue': 'GP',
+    'venueString': 'Ground Pass',
+    'venueDescription': 'Content',
+    'dateString': 'Jan something',
+    'btnClass': 'blue',
+    'products': [
       {
-        'venue': 'RLA',
-        'venueString': 'Rod Laver Arena',
-        'venueDescription': 'Rod Laver Arena Description',
-        'events': [
+        'title': '7pm',
+        'product': 'SDS',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'times': [
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
           {
-            'title': '7pm',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
-            'btnLink': 'http://google.com'
+            'btnLink': 'google.com'
           },
         ]
       },
       {
-        'venue': 'MCA',
-        'venueString': 'Margaret Court Arena',
-        'venueDescription': 'Margaret Court Arena Description',
-        'events': [
+        'title': '7pm',
+        'product': 'SDS',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'btnLink': 'http://google.com',
+        'times': [
           {
-            'title': 'Day Session - 2am',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'blue',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
           {
-            'title': 'Day Session - 11am',
-            'product': 'SDS',
-            'btnTitle': 'Link Title Dynamic',
-            'btnClass': 'green',
-            'btnLink': 'http://google.com'
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
           },
         ]
-      }
+      },
     ]
-  }
+  },
+  {
+    'venue': 'MCA',
+    'venueString': 'Ground',
+    'venueDescription': 'Margaret Court Arena Description',
+    'dateString': 'Jan something',
+    'btnClass': 'orange',
+    'products': [
+      {
+        'title': '7pm',
+        'product': 'SDS',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'btnLink': 'http://google.com',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': '7pm',
+        'product': 'SDS',
+        'dateString': '12 - 12 Jan',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'btnLink': 'http://google.com',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+    ]
+  },
 ];
