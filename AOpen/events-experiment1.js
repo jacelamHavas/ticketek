@@ -10,7 +10,7 @@ const eventCalendarList = [
         'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
-            'title': 'Changed Title',
+            'title': 'Day Session - 11am',
             'product': 'SDS',
             'btnTitle': 'Get Tickets',
             'btnClass': 'dark-blue',
