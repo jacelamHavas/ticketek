@@ -1,21 +1,21 @@
 .col-1 {
-    width: 25%;
+    width: calc( 25% - 30px );
 }
 
 .col-2 {
-    width: 50%;
+    width: calc( 50% - 30px );
 }
 
 .col-3 {
-    width: 33%;
+    width: calc( 33.333% );
 }
 
 .col-4 {
-    width: 100%;
+    width: calc( 100%  );
 }
 
 .toggle {
-    padding: 2px 4px;
+    img { width: 100%; }
 }
 
 .p-1 {
@@ -28,6 +28,10 @@
 
 .title {
     min-height: 60px;
+}
+
+.banner-image {
+    margin-bottom: 15px;
 }
 
 .action {
@@ -45,9 +49,17 @@
     width: 33%;
 }
 
+.row {
+    margin: 0 -15px;
+}
+
 .stripes:nth-child(even) {background: #eee}
 
 .btn {
     padding: 7px 40px;
     font-size: 13px;
+}
+
+.toggle.bg {
+    padding: 2px 4px;
 }

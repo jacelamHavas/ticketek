@@ -3,20 +3,26 @@ import { Component, OnInit } from '@angular/core';
 
 // THIS IS FOR PROD
 declare const eventCalendarList: any;
+declare const bannerImage: any;
 
-// // THIS IS FOR DEV
+// THIS IS FOR DEV
+// const bannerImage = {'url': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg'};
 // const eventCalendarList = [
 //   {
 //     'venue': 'MCA',
 //     'venueString': 'Margaret Court Arena',
 //     'venueDescription': 'Margaret Court Arena Description',
 //     'dateString': 'Jan something',
+//     'img': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
+//     'link': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
 //     'btnClass': 'lime',
 //     'products': [
 //       {
 //         'title': 'Multiday Session',
 //         'product': 'Single Day Session',
 //         'dateString': '12 - 12 Jan',
+//         'img': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
+//         'link': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
 //         'btnTitle': 'Link Title Dynamic',
 //         'btnClass': 'blue',
 //         'times': [
@@ -185,10 +191,13 @@ export class AppComponent implements OnInit {
   eventList: any;
   selectedVenue: any;
   selectedProduct: any;
+  bannerImage: any;
 
   constructor() {
     this.eventList = eventCalendarList;
+    this.bannerImage = bannerImage;
     console.log(eventCalendarList);
+    console.log(bannerImage);
   }
 
   ngOnInit() {

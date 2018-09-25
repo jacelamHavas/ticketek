@@ -1,152 +1,195 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    font:62.5% 'Open Sans', Arial, Helvetica, sans-serif;
+  font: 62.5% 'Open Sans', Arial, Helvetica, sans-serif;
 }
 
 .app-wrapper {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
 .m-1 {
-    margin: 15px;
+  margin: 15px;
 }
 
 .mb-1 {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 h1 {
-    margin-bottom: 5px!important;
+  margin-bottom: 5px !important;
 }
 
 h2 {
-    color: #fff;
-    font-size: 22px;
-    text-transform: uppercase;
-    font-weight: 700;
+  color: #fff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 
 h3 {
-    font-size: 15px;
-    color: #555!important;
+  font-size: 15px;
+  color: #555 !important;
 }
 
 p {
-    font-size: 14px;
-    color: #555;
+  font-size: 14px;
+  color: #555;
 }
 
 .text-muted {
-    background: white;
-    color: #999;
-    margin: 2px 0;
-    padding: 15px 0;
-    font-size: 20px;
-    font-weight: 400;
+  background: white;
+  color: #999;
+  margin: 2px 0;
+  padding: 15px 0;
+  font-size: 20px;
+  font-weight: 400;
 }
 
 .description {
-    min-height: 70px;
+  min-height: 70px;
 }
-    
+
 .uppercase {
-    text-transform: uppercase!important;
+  text-transform: uppercase !important;
 }
 
 .event {
-    margin-bottom: 20px;
-    float: left;
-    width: 100%;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
 }
 
 .get-tickets {
-    color: #fff;
+  color: #fff;
 }
 
-.col-1,.col-2,.col-3,.col-4 {
-    display: inline-table;
-    text-align: center;
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  float: left;
+  text-align: center;
 }
 
-.text-center { 
-    text-align: center;
+.text-center {
+  text-align: center;
 }
 
 .text-left {
-    text-align: left;
+  text-align: left;
 }
 
 .text-right {
-    text-align: right;
+  text-align: right;
 }
 
 .tickets-info {
-    color: #fff;
-    font-size: 15px;
-    background: #6AC63F;
-    padding: 10px 35px;
-    margin-top: 10px;
+  color: #fff;
+  font-size: 15px;
+  background: #6AC63F;
+  padding: 10px 35px;
+  margin-top: 10px;
 }
 
 .bg.dark-blue {
-    background-color: #003A5D;
-    color:#fff;
+  background-color: #003A5D;
+  color: #fff;
 }
 
 .bg.blue {
-    background-color: #0091D2;
-    color:#fff;
+  background-color: #0091D2;
+  color: #fff;
 }
 
 .bg.orange {
-    background-color: #F7981D;
-    color:#fff;
+  background-color: #F7981D;
+  color: #fff;
 }
 
 .bg.lime {
-    background-color: #d7D700;
-    color:#fff;
+  background-color: #d7D700;
+  color: #fff;
 }
 
 .bg.yellow {
-    background-color: #FFDE14;
-    color:#fff;
+  background-color: #FFDE14;
+  color: #fff;
 }
 
 .dark-blue {
-    color: #003A5D;
+  color: #003A5D;
 }
 
 .blue {
-    color: #0091D2;
+  color: #0091D2;
 }
 
 .orange {
-    color: #F7981D;
+  color: #F7981D;
 }
 
 .lime {
-    color: #d7D700;
+  color: #d7D700;
 }
 
 .yellow {
-    color: #FFDE14;
+  color: #FFDE14;
 }
 
-
 a {
-    text-decoration: none;
-    font-weight: 600;
-    border-radius: 5px;
-    text-align: center;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 5px;
+  text-align: center;
 }
 
 select {
-    border: 1px solid #0091D2;
-    margin-right: 20px;
-    padding: 5px 10px;
-    font-size: 16px;
-    min-width: 200px;
+  border: 1px solid #0091D2;
+  margin-right: 20px;
+  padding: 5px 10px;
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.container {
+  width: 100%;
+  float: left;
+}
+
+.app-wrapper .p-2 {
+  padding: 0 15px !important;
+  width: 100% !important;
+}
+
+.app-wrapper {
+  margin-top: 20px;
+}
+
+.app-wrapper .mb-1 {
+  margin-bottom: 30px !important
+}
+
+.app-wrapper .title {
+  min-height: 60px;
+}
+
+.app-wrapper h2.title {
+  font-weight: 600;
+  font-size: 22px;
+  padding-top: 10px;
+  margin: 0px 0px 0px;
+}
+
+.wrapBodyNew h1 {
+  margin-bottom: 15px !important;
+  font-size: 26px !important;
+}
+
+.toggle {
+  cursor: pointer;
+  margin-bottom: 15px;
+  display: block;
+  border-radius: 0px;
 }
