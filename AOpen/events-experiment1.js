@@ -1,8 +1,8 @@
 const eventCalendarList = [
   {
     'dayName': 'Mon',
-    'dayString': '13 Jan 2019',
-    'dayNo': 13,
+    'dayString': '15 Jan 2019',
+    'dayNo': 15,
     'venues': [
       {
         'venue': 'RLA',
@@ -71,8 +71,8 @@ const eventCalendarList = [
   },
   {
     'dayName': 'Tue',
-    'dayString': '14 Jan 2019',
-    'dayNo': 14,
+    'dayString': '16 Jan 2019',
+    'dayNo': 16,
     'venues': [
       {
         'venue': 'RLA',
