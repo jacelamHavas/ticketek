@@ -245,6 +245,7 @@ const eventCalendarList = [
             'btnClass': 'dark-blue',
             'btnLink': 'google.com'
           },
+          ]
            {
         'title': 'Single Day Sessions',
         'product': 'Single Day Session',
