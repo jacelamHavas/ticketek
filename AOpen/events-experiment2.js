@@ -1,4 +1,4 @@
-const bannerImage = {'url': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg'};
+const bannerImage = {'url': '//cdn.optimizely.com/img/7556701945/9375cdcf2b2841d4a959c2b2cdce7547.png'};
 const eventCalendarList = [
   {
     'venue': 'RLA',
@@ -225,34 +225,11 @@ const eventCalendarList = [
         ]
       },
       {
-        'title': 'Multiday Night',
-        'product': 'SDS',
+        'title': 'Multi Day Sessions',
+        'product': 'Multi Day Session',
         'dateString': '12 - 12 Jan',
-        'btnTitle': 'Link Title Dynamic',
-        'btnClass': 'dark-blue',
-        'times': [
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-        ]
-      },
-           {
-        'title': 'Single Day Sessions',
-        'product': 'Single Day Session',
-        'dateString': '12 - 12 Jan',
-        'img': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
-        'link': 'https://d35kvm5iuwjt9t.cloudfront.net/dbimages/sfx207198.jpg',
+        'img': '//cdn.optimizely.com/img/7556701945/a330b1dafd9f45c0b4387698642a1bf6.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PA/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
         'times': [
@@ -273,19 +250,14 @@ const eventCalendarList = [
         ]
       },
       {
-        'title': 'Multiday Night',
-        'product': 'SDS',
+        'title': 'Multiday Night Sessions',
+        'product': 'Multiday Night Sessions',
         'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/d9aa110c2190401f8c24d4fb9678e413.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PB/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
         'times': [
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
           {
             'dateString': 'Mon 15 Jan',
             'description': 'test',
