@@ -866,4 +866,32 @@ const eventCalendarList = [
       },
     ]
   },
+  {
+    'venue': 'KID',
+    'venueString': 'KIDS TENNIS',
+    'venueDescription': 'Soak up the buzzing atmosphere and witness all the on-court battles over the first eight days at Melbourne Arena.',
+    'dateString': 'Jan something',
+    'img': '//cdn.optimizely.com/img/7556701945/ca62a352c05c4a64b5889bba2881a913.png',
+    'link': '//google.com',
+    'btnClass': 'blue',
+    'products': [
+      {
+        'title': 'Single MEL',
+        'product': 'Single MEL',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'times': [
+          {
+            'dateString': 'Mon 14 Jan',
+            'description': 'First Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019614V/tickets'
+          },
+        ]
+      },
+    ]
+  },
 ];
