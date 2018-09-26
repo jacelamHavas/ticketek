@@ -245,7 +245,8 @@ const eventCalendarList = [
             'btnClass': 'dark-blue',
             'btnLink': 'google.com'
           },
-          ]
+        ]
+      },
            {
         'title': 'Single Day Sessions',
         'product': 'Single Day Session',
@@ -368,63 +369,6 @@ const eventCalendarList = [
         'dateString': '12 - 12 Jan',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
-        'times': [
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-        ]
-      },
-      {
-        'title': '7pm',
-        'product': 'SDS',
-        'dateString': '12 - 12 Jan',
-        'btnTitle': 'Link Title Dynamic',
-        'btnClass': 'lime',
-        'btnLink': 'http://google.com',
-        'times': [
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-          {
-            'dateString': 'Mon 15 Jan',
-            'description': 'test',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': 'google.com'
-          },
-        ]
-      },
-    ]
-  },
-  {
-    'venue': 'MCA',
-    'venueString': 'Ground',
-    'venueDescription': 'Margaret Court Arena Description',
-    'dateString': 'Jan something',
-    'btnClass': 'orange',
-    'products': [
-      {
-        'title': '7pm',
-        'product': 'SDS',
-        'dateString': '12 - 12 Jan',
-        'btnTitle': 'Link Title Dynamic',
-        'btnClass': 'lime',
-        'btnLink': 'http://google.com',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
