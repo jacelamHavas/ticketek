@@ -267,6 +267,150 @@ const eventCalendarList = [
           },
         ]
       },
+      {
+        'title': 'Multi WE day Sessions',
+        'product': 'Multi WE Day Session',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/3e5d81b04ad34f8aab963a31c1ce08ff.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PC/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Multiday WE Night Sessions',
+        'product': 'Multiday WE Night Sessions',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/269fc14028a74f1fb0113cfc5f8aa149.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PD/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'dark-blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Quarter day Sessions',
+        'product': 'Quarter Day Session',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/7f396138f98447dc9a5634884d7fce0a.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PE/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Quarter Night Sessions',
+        'product': 'Quarter Night Sessions',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/b81a4f014094413a8e161ee300999dba.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PF/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'dark-blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Semi A  Sessions',
+        'product': 'Semi A Session',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/3cedf701ef0249e99faf96131c0081e3.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PG/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Semi B  Sessions',
+        'product': 'Semi B Sessions',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/f5a5174b84ad49efa114290d77a9b8de.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PH/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'dark-blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Finals WE Sessions',
+        'product': 'Finals WE Session',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/a687ec9495ba4bd79c9f8cb72acb7355.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PI/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
+      {
+        'title': 'Final Five Sessions',
+        'product': 'Final Five Sessions',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/0e39e15ec8354b609c2cbfd58e5feff3.png',
+        'link': 'https://ausopen.ticketek.com.au/seriesevents/EMAO0000019PJ/tickets',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'dark-blue',
+        'times': [
+          {
+            'dateString': 'Mon 15 Jan',
+            'description': 'test',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': 'google.com'
+          },
+        ]
+      },
     ]
   },
    {
