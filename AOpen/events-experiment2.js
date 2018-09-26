@@ -882,8 +882,6 @@ const eventCalendarList = [
         'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
-        'times': [
-        ]
       },
     ]
   },
