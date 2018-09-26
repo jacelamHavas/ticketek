@@ -883,13 +883,6 @@ const eventCalendarList = [
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
         'times': [
-          {
-            'dateString': 'Mon 14 Jan',
-            'description': 'First Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019614V/tickets'
-          },
         ]
       },
     ]
