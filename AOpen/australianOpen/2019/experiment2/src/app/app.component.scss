@@ -5,7 +5,7 @@
 }
 
 .col-2 {
-    width: calc( 50% - 30px );
+    width: calc( 50% );
 }
 
 .col-3 {
@@ -33,12 +33,21 @@
 }
 
 .banner-image {
-    margin-bottom: 15px;
+    margin-bottom: 45px;
+    width: calc(100% - 200px);
+    padding: 0 100px;
+}
+
+.second-page > .p-1 {
+  max-width: 250px!important;
+    margin: 0 auto;
 }
 
 .action {
     display: inherit;
     font-size: 14px;
+    cursor: pointer;
+    font-weight: 300;
     text-decoration: underline;
 }
 .row-items {
@@ -50,9 +59,11 @@
     float: left;
     width: 33%;
 }
-
+.row-items .item:nth-child(3) {
+  float: right!important;
+}
 .row {
-    margin: 0 -15px;
+    margin: 0 0px;
     h2 {
         background: inherit;
         padding: 0!important;
@@ -87,6 +98,7 @@
   
   h1 {
     margin-bottom: 5px !important;
+    font-size: 24px;
   }
   
   h2 {
@@ -254,7 +266,7 @@
   
   .toggle {
     cursor: pointer;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
     display: block;
     border-radius: 0px;
   }

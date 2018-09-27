@@ -3,26 +3,26 @@
     <h1 *ngIf="!bannerImage" class="col-4 blue text-center uppercase">SELECT YOUR AUSTRALIAN OPEN EXPERIENCE</h1>
     <img class="col-4 banner-image" src="{{bannerImage.url}}">
     <div class="row">
-      <div class="col-3" *ngFor="let venue of eventList" (click)="selectedVenue = venue; selectedProduct = null;">
+      <div class="col-3" *ngFor="let venue of eventList" >
         <div class="p-1">
-            <div *ngIf="venue.link && !venue.img" class="p-1">
+            <div *ngIf="venue.link && !venue.img" class="p-1" >
                 <a href="{{venue.link}}" class="toggle bg {{venue.btnClass}}">
                   <h2 class="title">{{venue.venueString}}</h2>
                   <h2 class="text-muted">{{venue.dateString}}</h2>
                 </a>
               </div>
-              <div *ngIf="!venue.link && !venue.img" class="p-1">
+              <div *ngIf="!venue.link && !venue.img" class="p-1" (click)="selectedVenue = venue; selectedProduct = null;">
                 <div class="toggle bg {{venue.btnClass}}">
                   <h2 class="title">{{venue.venueString}}</h2>
                   <h2 class="text-muted">{{venue.dateString}}</h2>
                 </div>
               </div>
-          <div *ngIf="venue.img && venue.link" >
+          <div *ngIf="venue.img && venue.link" class="p-1" >
             <a class="toggle" href="{{venue.link}}">
             <img src="{{venue.img}}">
           </a>
           </div>
-          <div *ngIf="!venue.link && venue.img" class="p-1">
+          <div *ngIf="!venue.link && venue.img" class="p-1" (click)="selectedVenue = venue; selectedProduct = null;">
               <div class="toggle">
                 <img src="{{venue.img}}">
               </div>
@@ -31,17 +31,17 @@
       </div>
     </div>
   </div>
-  <div class="container p-2" *ngIf="selectedVenue && !selectedProduct">
+  <div class="container" *ngIf="selectedVenue && !selectedProduct">
     <h1 class="blue text-center uppercase">{{selectedVenue.venueString}}</h1>
     <p class="text-center">{{selectedVenue.venueDescription}}</p>
     <a class="blue text-center action mb-1" (click)="selectedVenue = null">back to all arenas</a>
-    <div class="col-2" *ngFor="let product of selectedVenue.products" (click)="selectedProduct = product">
-      <div *ngIf="product.link && product.img" class="p-1">
+    <div class="col-2 second-page" *ngFor="let product of selectedVenue.products" >
+      <div *ngIf="product.link && product.img" class="p-1" >
           <a href="{{product.link}}" class="toggle">
               <img src="{{product.img}}">
           </a>
       </div>
-      <div *ngIf="!product.link && product.img" class="p-1">
+      <div *ngIf="!product.link && product.img" class="p-1" (click)="selectedProduct = product">
         <div class="toggle">
           <img src="{{product.img}}">
         </div>
@@ -52,7 +52,7 @@
           <h2 class="text-muted">{{product.dateString}}</h2>
         </a>
       </div>
-      <div *ngIf="!product.link && !product.img" class="p-1">
+      <div *ngIf="!product.link && !product.img" class="p-1" (click)="selectedProduct = product">
         <div class="toggle bg {{product.btnClass}}">
           <h2 class="title">{{product.title}}</h2>
           <h2 class="text-muted">{{product.dateString}}</h2>
