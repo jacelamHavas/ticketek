@@ -1,1 +1,152 @@
-/* You can add global styles to this file, and also import other style files */body{font:62.5% Open Sans,Arial,Helvetica,sans-serif}.app-wrapper{width:100%;float:left}.m-1{margin:15px}.mb-1{margin-bottom:15px}h1{margin-bottom:5px!important}h2{color:#fff;font-size:22px;text-transform:uppercase;font-weight:700}h3{font-size:15px;color:#555!important}p{font-size:14px;color:#555}.text-muted{background:#fff;color:#999;margin:2px 0;padding:15px 0;font-size:20px;font-weight:400}.description{min-height:70px}.uppercase{text-transform:uppercase!important}.event{margin-bottom:20px;float:left;width:100%}.get-tickets{color:#fff}.col-1,.col-2,.col-3,.col-4{float:left;text-align:center}.text-center{text-align:center}.text-left{text-align:left}.text-right{text-align:right}.tickets-info{color:#fff;font-size:15px;background:#6ac63f;padding:10px 35px;margin-top:10px}.bg.dark-blue{background-color:#003a5d;color:#fff}.bg.blue{background-color:#0091d2;color:#fff}.bg.orange{background-color:#f7981d;color:#fff}.bg.lime{background-color:#d7d700;color:#fff}.bg.yellow{background-color:#ffde14;color:#fff}.dark-blue{color:#003a5d}.blue{color:#0091d2}.orange{color:#f7981d}.lime{color:#d7d700}.yellow{color:#ffde14}a{text-decoration:none;font-weight:600;border-radius:5px;text-align:center}select{border:1px solid #0091d2;margin-right:20px;padding:5px 10px;font-size:16px;min-width:200px}.container{width:100%;float:left}.app-wrapper .p-2{padding:0 15px!important;width:100%!important}.app-wrapper{margin-top:20px}.app-wrapper .mb-1{margin-bottom:30px!important}.app-wrapper .title{min-height:60px}.app-wrapper h2.title{font-weight:600;font-size:22px;padding-top:10px;margin:0 0 0}.wrapBodyNew h1{margin-bottom:15px!important;font-size:26px!important}.toggle{cursor:pointer;margin-bottom:15px;display:block;border-radius:0}
+.app-wrapper[_ngcontent-c0] .text-muted[_ngcontent-c0] {
+    background: #fff!important;
+  }
+  .row h2 {background: inherit!important;}
+  .app-wrapper[_ngcontent-c0] {
+    font: 62.5% 'Open Sans', Arial, Helvetica, sans-serif; }
+    .app-wrapper[_ngcontent-c0]   .col-1[_ngcontent-c0] {
+      width: calc( 25% - 30px); }
+    .app-wrapper[_ngcontent-c0]   .col-2[_ngcontent-c0] {
+      width: calc( 50% ); }
+    .app-wrapper[_ngcontent-c0]   .col-3[_ngcontent-c0] {
+      width: calc( 33.333%); }
+    .app-wrapper[_ngcontent-c0]   .col-4[_ngcontent-c0] {
+      width: calc( 100%); }
+    .app-wrapper[_ngcontent-c0]   .toggle[_ngcontent-c0]   img[_ngcontent-c0] {
+      width: 100%; }
+    .app-wrapper[_ngcontent-c0]   .p-1[_ngcontent-c0] {
+      padding: 0 15px; }
+    .app-wrapper[_ngcontent-c0]   .p-2[_ngcontent-c0] {
+      padding: 0 45px; }
+    .app-wrapper[_ngcontent-c0]   .title[_ngcontent-c0] {
+      min-height: 60px; }
+    .app-wrapper[_ngcontent-c0]   .banner-image[_ngcontent-c0] {
+      margin-bottom: 15px; }
+    .app-wrapper[_ngcontent-c0]   .action[_ngcontent-c0] {
+      display: inherit;
+      font-size: 14px;
+      text-decoration: underline; }
+    .app-wrapper[_ngcontent-c0]   .row-items[_ngcontent-c0] {
+      line-height: 3rem;
+      font-weight: 500; }
+    .app-wrapper[_ngcontent-c0]   .row-items[_ngcontent-c0]   .item[_ngcontent-c0] {
+      font-size: 16px;
+      float: left;
+      width: 33%; }
+    .app-wrapper[_ngcontent-c0]   .row[_ngcontent-c0] {
+      margin: 0 -15px; }
+    .app-wrapper[_ngcontent-c0]   .stripes[_ngcontent-c0]:nth-child(even) {
+      background: #eee; }
+    .app-wrapper[_ngcontent-c0]   .btn[_ngcontent-c0] {
+      padding: 7px 40px;
+      font-size: 13px; }
+    .app-wrapper[_ngcontent-c0]   .toggle.bg[_ngcontent-c0] {
+      padding: 2px 4px; }
+    .app-wrapper[_ngcontent-c0]   .m-1[_ngcontent-c0] {
+      margin: 15px; }
+    .app-wrapper[_ngcontent-c0]   .mb-1[_ngcontent-c0] {
+      margin-bottom: 15px; }
+    .app-wrapper[_ngcontent-c0]   h1[_ngcontent-c0] {
+      margin-bottom: 5px !important; }
+    .app-wrapper[_ngcontent-c0]   h2[_ngcontent-c0] {
+      color: #fff;
+      font-size: 22px;
+      text-transform: uppercase;
+      font-weight: 700; }
+    .app-wrapper[_ngcontent-c0]   h3[_ngcontent-c0] {
+      font-size: 15px;
+      color: #555 !important; }
+    .app-wrapper[_ngcontent-c0]   p[_ngcontent-c0] {
+      font-size: 14px;
+      color: #555; }
+    .app-wrapper[_ngcontent-c0]   .text-muted[_ngcontent-c0] {
+      background: white;
+      color: #999;
+      margin: 2px 0;
+      padding: 15px 0;
+      font-size: 20px;
+      font-weight: 400; }
+    .app-wrapper[_ngcontent-c0]   .description[_ngcontent-c0] {
+      min-height: 70px; }
+    .app-wrapper[_ngcontent-c0]   .uppercase[_ngcontent-c0] {
+      text-transform: uppercase !important; }
+    .app-wrapper[_ngcontent-c0]   .event[_ngcontent-c0] {
+      margin-bottom: 20px;
+      float: left;
+      width: 100%; }
+    .app-wrapper[_ngcontent-c0]   .get-tickets[_ngcontent-c0] {
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .col-1[_ngcontent-c0], .app-wrapper[_ngcontent-c0]   .col-2[_ngcontent-c0], .app-wrapper[_ngcontent-c0]   .col-3[_ngcontent-c0], .app-wrapper[_ngcontent-c0]   .col-4[_ngcontent-c0] {
+      float: left;
+      text-align: center; }
+    .app-wrapper[_ngcontent-c0]   .text-center[_ngcontent-c0] {
+      text-align: center; }
+    .app-wrapper[_ngcontent-c0]   .text-left[_ngcontent-c0] {
+      text-align: left; }
+    .app-wrapper[_ngcontent-c0]   .text-right[_ngcontent-c0] {
+      text-align: right; }
+    .app-wrapper[_ngcontent-c0]   .tickets-info[_ngcontent-c0] {
+      color: #fff;
+      font-size: 15px;
+      background: #6AC63F;
+      padding: 10px 35px;
+      margin-top: 10px; }
+    .app-wrapper[_ngcontent-c0]   .bg.dark-blue[_ngcontent-c0] {
+      background-color: #003A5D;
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .bg.blue[_ngcontent-c0] {
+      background-color: #0091D2;
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .bg.orange[_ngcontent-c0] {
+      background-color: #F7981D;
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .bg.lime[_ngcontent-c0] {
+      background-color: #d7D700;
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .bg.yellow[_ngcontent-c0] {
+      background-color: #FFDE14;
+      color: #fff; }
+    .app-wrapper[_ngcontent-c0]   .dark-blue[_ngcontent-c0] {
+      color: #003A5D; }
+    .app-wrapper[_ngcontent-c0]   .blue[_ngcontent-c0] {
+      color: #0091D2; }
+    .app-wrapper[_ngcontent-c0]   .orange[_ngcontent-c0] {
+      color: #F7981D; }
+    .app-wrapper[_ngcontent-c0]   .lime[_ngcontent-c0] {
+      color: #d7D700; }
+    .app-wrapper[_ngcontent-c0]   .yellow[_ngcontent-c0] {
+      color: #FFDE14; }
+    .app-wrapper[_ngcontent-c0]   a[_ngcontent-c0] {
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 5px;
+      text-align: center; }
+    .app-wrapper[_ngcontent-c0]   select[_ngcontent-c0] {
+      border: 1px solid #0091D2;
+      margin-right: 20px;
+      padding: 5px 10px;
+      font-size: 16px;
+      min-width: 200px; }
+    .app-wrapper[_ngcontent-c0]   .container[_ngcontent-c0] {
+      width: 100%;
+      float: left; }
+    .app-wrapper[_ngcontent-c0]   .p-2[_ngcontent-c0] {
+      padding: 0 15px !important;
+      width: 100% !important; }
+    .app-wrapper[_ngcontent-c0]   .mb-1[_ngcontent-c0] {
+      margin-bottom: 30px !important; }
+    .app-wrapper[_ngcontent-c0]   .title[_ngcontent-c0] {
+      min-height: 60px; }
+    .app-wrapper[_ngcontent-c0]   h2.title[_ngcontent-c0] {
+      font-weight: 600;
+      font-size: 22px;
+      padding-top: 10px;
+      margin: 0px 0px 0px; }
+    .app-wrapper[_ngcontent-c0]   .wrapBodyNew[_ngcontent-c0]   h1[_ngcontent-c0] {
+      margin-bottom: 15px !important;
+      font-size: 26px !important; }
+    .app-wrapper[_ngcontent-c0]   .toggle[_ngcontent-c0] {
+      cursor: pointer;
+      margin-bottom: 15px;
+      display: block;
+      border-radius: 0px; }
