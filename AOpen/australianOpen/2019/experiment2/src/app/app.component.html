@@ -1,7 +1,10 @@
 <div class="app-wrapper">
   <div class="container" *ngIf="!selectedVenue && !selectedProduct">
-    <h1 *ngIf="!bannerImage" class="col-4 blue text-center uppercase">SELECT YOUR AUSTRALIAN OPEN EXPERIENCE</h1>
-    <img class="col-4 banner-image" src="{{bannerImage.url}}">
+      <p>Summer in Melbourne means one thing … the Australian Open!</p>
+
+      <p class="mb-2">Be a part of all the action when the world’s best tennis stars descend onto Melbourne Park for two adrenaline-charged weeks, packed with excitement and entertainment for everyone.</p>
+    <h1 *ngIf="!bannerImage" class="col-4 blue text-center uppercase mt-2">SELECT YOUR AUSTRALIAN OPEN EXPERIENCE</h1>
+    <img class="col-4 banner-image mt-2" src="{{bannerImage.url}}">
     <div class="row">
       <div class="col-3" *ngFor="let venue of eventList" >
         <div class="p-1">
