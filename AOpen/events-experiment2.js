@@ -629,8 +629,8 @@ const eventCalendarList = [
     'btnClass': 'blue',
     'products': [
       {
-        'title': 'Single MEL',
-        'product': 'Single MEL',
+        'title': 'Single Day Session',
+        'product': 'Single Day Session',
         'dateString': '12 - 12 Jan',
         'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
         'btnTitle': 'Link Title Dynamic',
@@ -705,8 +705,8 @@ const eventCalendarList = [
     'btnClass': 'blue',
     'products': [
       {
-        'title': 'Single GP',
-        'product': 'Single GP',
+        'title': 'Single Day Session',
+        'product': 'Single Day Session',
         'dateString': '12 - 12 Jan',
         'img': '//cdn.optimizely.com/img/7556701945/8808f3a2038e47d39182d453e18a6222.png',
         'btnTitle': 'Link Title Dynamic',
