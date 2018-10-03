@@ -1,35 +1,40 @@
 <div class="app-wrapper">
   <div class="container" *ngIf="!selectedVenue && !selectedProduct">
-      <p>Summer in Melbourne means one thing … the Australian Open!</p>
+    <p>Summer in Melbourne means one thing … the Australian Open!</p>
 
-      <p class="mb-2">Be a part of all the action when the world’s best tennis stars descend onto Melbourne Park for two adrenaline-charged weeks, packed with excitement and entertainment for everyone.</p>
+    <p class="mb-2">Be a part of all the action when the world’s best tennis stars descend onto Melbourne Park for two
+      adrenaline-charged weeks, packed with excitement and entertainment for everyone.</p>
     <h1 *ngIf="!bannerImage" class="col-4 blue text-center uppercase mt-2">SELECT YOUR AUSTRALIAN OPEN EXPERIENCE</h1>
     <img class="col-4 banner-image mt-2" src="{{bannerImage.url}}">
     <div class="row">
-      <div class="col-3" *ngFor="let venue of eventList" >
+      <div class="col-3" *ngFor="let venue of eventList">
         <div class="p-1">
-            <div *ngIf="venue.link && !venue.img" class="p-1" >
-                <a href="{{venue.link}}" class="toggle bg {{venue.btnClass}}">
-                  <h2 class="title">{{venue.venueString}}</h2>
-                  <h2 class="text-muted">{{venue.dateString}}</h2>
-                </a>
-              </div>
-              <div *ngIf="!venue.link && !venue.img" class="p-1" (click)="selectedVenue = venue; selectedProduct = null;">
-                <div class="toggle bg {{venue.btnClass}}">
-                  <h2 class="title">{{venue.venueString}}</h2>
-                  <h2 class="text-muted">{{venue.dateString}}</h2>
-                </div>
-              </div>
-          <div *ngIf="venue.img && venue.link" class="p-1" >
+          <div *ngIf="venue.link && !venue.img" class="p-1">
+            <a href="{{venue.link}}" class="toggle bg {{venue.btnClass}}">
+              <div *ngIf="venue.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
+              <h2 class="title">{{venue.venueString}}</h2>
+              <h2 class="text-muted">{{venue.dateString}}</h2>
+            </a>
+          </div>
+          <div *ngIf="!venue.link && !venue.img" class="p-1" (click)="selectedVenue = venue; selectedProduct = null;">
+            <div *ngIf="venue.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
+            <div class="toggle bg {{venue.btnClass}}">
+              <h2 class="title">{{venue.venueString}}</h2>
+              <h2 class="text-muted">{{venue.dateString}}</h2>
+            </div>
+          </div>
+          <div *ngIf="venue.img && venue.link" class="p-1">
             <a class="toggle" href="{{venue.link}}">
-            <img src="{{venue.img}}">
-          </a>
+              <div *ngIf="venue.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
+              <img src="{{venue.img}}">
+            </a>
           </div>
           <div *ngIf="!venue.link && venue.img" class="p-1" (click)="selectedVenue = venue; selectedProduct = null;">
-              <div class="toggle">
-                <img src="{{venue.img}}">
-              </div>
+            <div *ngIf="venue.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
+            <div class="toggle">
+              <img src="{{venue.img}}">
             </div>
+          </div>
         </div>
       </div>
     </div>
@@ -38,24 +43,28 @@
     <h1 class="blue text-center uppercase">{{selectedVenue.venueString}}</h1>
     <p class="text-center">{{selectedVenue.venueDescription}}</p>
     <a class="blue text-center action mb-1" (click)="selectedVenue = null">back to all arenas</a>
-    <div class="col-2 second-page" *ngFor="let product of selectedVenue.products" >
-      <div *ngIf="product.link && product.img" class="p-1" >
-          <a href="{{product.link}}" class="toggle">
-              <img src="{{product.img}}">
-          </a>
+    <div class="col-2 second-page" *ngFor="let product of selectedVenue.products">
+      <div *ngIf="product.link && product.img" class="p-1">
+        <div *ngIf="product.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
+        <a href="{{product.link}}" class="toggle">
+          <img src="{{product.img}}">
+        </a>
       </div>
       <div *ngIf="!product.link && product.img" class="p-1" (click)="selectedProduct = product">
+        <div *ngIf="product.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
         <div class="toggle">
           <img src="{{product.img}}">
         </div>
       </div>
       <div *ngIf="product.link && !product.img" class="p-1">
         <a href="{{product.link}}" class="toggle bg {{product.btnClass}}">
+          <div *ngIf="product.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
           <h2 class="title">{{product.title}}</h2>
           <h2 class="text-muted">{{product.dateString}}</h2>
         </a>
       </div>
       <div *ngIf="!product.link && !product.img" class="p-1" (click)="selectedProduct = product">
+        <div *ngIf="product.hoverState" class="hoverState"><span class="hoverGetTickets">Get Tickets</span></div>
         <div class="toggle bg {{product.btnClass}}">
           <h2 class="title">{{product.title}}</h2>
           <h2 class="text-muted">{{product.dateString}}</h2>

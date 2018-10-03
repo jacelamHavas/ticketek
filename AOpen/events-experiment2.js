@@ -7,6 +7,7 @@ const eventCalendarList = [
     'dateString': 'Jan XX',
     'img': '//cdn.optimizely.com/img/7556701945/bad594e8a9f9459cad6f63dd4700b05c.png',
     'btnClass': 'dark-blue',
+    'hoverState': 'true',
     'products': [
       {
         'title': 'Single Day Sessions',
@@ -15,6 +16,7 @@ const eventCalendarList = [
         'img': '//cdn.optimizely.com/img/7556701945/79f1c2576e3e482bba4cb4ea6a3893e8.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
