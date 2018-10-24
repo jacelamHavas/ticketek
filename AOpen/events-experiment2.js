@@ -623,82 +623,6 @@ const eventCalendarList = [
     ]
   },
   {
-    'venue': 'MEL',
-    'venueString': 'MELBOURNE ARENA',
-    'venueDescription': 'Soak up the buzzing atmosphere and witness all the on-court battles over the first eight days at Melbourne Arena.',
-    'dateString': 'Jan something',
-    'img': '//cdn.optimizely.com/img/7556701945/73b69a2884604c80ba561aaf6b9ced59.png',
-    'btnClass': 'blue',
-    'products': [
-      {
-        'title': 'Single Day Session',
-        'product': 'Single Day Session',
-        'dateString': '12 - 12 Jan',
-        'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
-        'btnTitle': 'Link Title Dynamic',
-        'btnClass': 'lime',
-        'times': [
-          {
-            'dateString': 'Mon 14 Jan',
-            'description': 'First Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019614V/tickets'
-          },
-          {
-            'dateString': 'Tue 15 Jan',
-            'description': 'First Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019615V/tickets'
-          },
-          {
-            'dateString': 'Wed 16 Jan',
-            'description': 'Second Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019616V/tickets'
-          },
-          {
-            'dateString': 'Thu 17 Jan',
-            'description': 'Second Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019617V/tickets'
-          },
-          {
-            'dateString': 'Fri 18 Jan',
-            'description': 'Third Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019618V/tickets'
-          },
-          {
-            'dateString': 'Sat 19 Jan',
-            'description': 'Third Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019619V/tickets'
-          },
-          {
-            'dateString': 'Sun 20 Jan',
-            'description': 'Fourth Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019620V/tickets'
-          },
-          {
-            'dateString': 'Mon 21 Jan',
-            'description': 'Fourth Round',
-            'btnString': 'Get Tickets',
-            'btnClass': 'dark-blue',
-            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019621V/tickets'
-          },
-        ]
-      },
-    ]
-  },
-  {
     'venue': 'GP',
     'venueString': 'Ground Pass',
     'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
@@ -863,6 +787,82 @@ const eventCalendarList = [
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': 'google.com'
+          },
+        ]
+      },
+    ]
+  },
+   {
+    'venue': 'MEL',
+    'venueString': 'MELBOURNE ARENA',
+    'venueDescription': 'Soak up the buzzing atmosphere and witness all the on-court battles over the first eight days at Melbourne Arena.',
+    'dateString': 'Jan something',
+    'img': '//cdn.optimizely.com/img/7556701945/73b69a2884604c80ba561aaf6b9ced59.png',
+    'btnClass': 'blue',
+    'products': [
+      {
+        'title': 'Single Day Session',
+        'product': 'Single Day Session',
+        'dateString': '12 - 12 Jan',
+        'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
+        'btnTitle': 'Link Title Dynamic',
+        'btnClass': 'lime',
+        'times': [
+          {
+            'dateString': 'Mon 14 Jan',
+            'description': 'First Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019614V/tickets'
+          },
+          {
+            'dateString': 'Tue 15 Jan',
+            'description': 'First Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019615V/tickets'
+          },
+          {
+            'dateString': 'Wed 16 Jan',
+            'description': 'Second Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019616V/tickets'
+          },
+          {
+            'dateString': 'Thu 17 Jan',
+            'description': 'Second Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019617V/tickets'
+          },
+          {
+            'dateString': 'Fri 18 Jan',
+            'description': 'Third Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019618V/tickets'
+          },
+          {
+            'dateString': 'Sat 19 Jan',
+            'description': 'Third Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019619V/tickets'
+          },
+          {
+            'dateString': 'Sun 20 Jan',
+            'description': 'Fourth Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019620V/tickets'
+          },
+          {
+            'dateString': 'Mon 21 Jan',
+            'description': 'Fourth Round',
+            'btnString': 'Get Tickets',
+            'btnClass': 'dark-blue',
+            'btnLink': '//ausopen.ticketek.com.au/events/AOPENVFA19/venues/MELBARENA/performances/EMAO2019621V/tickets'
           },
         ]
       },
