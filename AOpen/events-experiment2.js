@@ -3,7 +3,7 @@ const eventCalendarList = [
   {
     'venue': 'RLA',
     'venueString': 'ROD LAVER ARENA',
-    'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+    'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
     'dateString': 'Jan XX',
     'img': '//cdn.optimizely.com/img/7556701945/bad594e8a9f9459cad6f63dd4700b05c.png',
     'btnClass': 'dark-blue',
@@ -625,7 +625,7 @@ const eventCalendarList = [
   {
     'venue': 'GP',
     'venueString': 'Ground Pass',
-    'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+    'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
     'dateString': 'Jan something',
     'img': '//cdn.optimizely.com/img/7556701945/3004da832ecc49d693095febff8fdc5f.png',
     'btnClass': 'blue',
