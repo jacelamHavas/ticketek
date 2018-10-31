@@ -7,7 +7,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -91,7 +91,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -126,7 +126,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -210,7 +210,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -245,7 +245,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -329,7 +329,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -364,7 +364,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -448,7 +448,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -483,7 +483,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -567,7 +567,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -602,7 +602,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -686,7 +686,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -721,7 +721,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -798,7 +798,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -833,7 +833,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -910,7 +910,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -945,7 +945,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -980,7 +980,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -1015,7 +1015,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -1050,7 +1050,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -1085,7 +1085,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -1127,7 +1127,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -1162,7 +1162,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -1190,7 +1190,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -1225,7 +1225,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -1253,7 +1253,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
@@ -1288,7 +1288,7 @@ const eventCalendarList = [
       {
         'venue': 'RLA',
         'venueString': 'ROD LAVER ARENA',
-        'venueDescription': 'The best players on the biggest stage - don\'t miss a minute of the centre court action on Rod Laver Arena, the heart of the tournament.',
+        'venueDescription': 'The best players on the biggest stage - rethink your tennis experience with a seat in Rod Laver Arena, the heart of the tournament.',
         'events': [
           {
             'title': 'Day Session - 11am',
@@ -1316,7 +1316,7 @@ const eventCalendarList = [
       {
         'venue': 'GP',
         'venueString': 'GROUND PASS',
-        'venueDescription': 'Enjoy a day out at Melbourne Park with access to all outdoor courts, Melbourne Arena, AO Live Stage, AO Ballpark and much more!',
+        'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
         'events': [
           {
             'title': 'Full Day - 11am',
