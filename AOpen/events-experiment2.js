@@ -422,6 +422,7 @@ const eventCalendarList = [
     'dateString': 'Jan something',
     'img': '//cdn.optimizely.com/img/7556701945/5ec63d06ee144c24ba6da2063a13be64.png',
     'btnClass': 'lime',
+    'hoverState': 'true',
     'products': [
        {
         'title': 'Single Day Sessions',
@@ -627,8 +628,9 @@ const eventCalendarList = [
     'venueString': 'Ground Pass',
     'venueDescription': 'Grab your friends, or grab the family and enjoy a day at Melbourne Park soaking up all the summer vibes around the grounds - a ground pass gives you access to all outdoor courts, the AO Live Stage and the AO Ballpark. Kids Ground passes are just $5.',
     'dateString': 'Jan something',
-    'img': '//cdn.optimizely.com/img/7556701945/3004da832ecc49d693095febff8fdc5f.png',
+    'img': '//cdn.optimizely.com/img/7556701945/953d3b6eed57435c8c836c4f99cbfa7f.png',
     'btnClass': 'blue',
+    'hoverState': 'true',
     'products': [
       {
         'title': 'Single Day Session',
@@ -799,6 +801,7 @@ const eventCalendarList = [
     'dateString': 'Jan something',
     'img': '//cdn.optimizely.com/img/7556701945/73b69a2884604c80ba561aaf6b9ced59.png',
     'btnClass': 'blue',
+    'hoverState': 'true',
     'products': [
       {
         'title': 'Single Day Session',
@@ -873,9 +876,10 @@ const eventCalendarList = [
     'venueString': 'KIDS TENNIS',
     'venueDescription': 'Soak up the buzzing atmosphere and witness all the on-court battles over the first eight days at Melbourne Arena.',
     'dateString': 'Jan something',
-    'img': '//cdn.optimizely.com/img/7556701945/ca62a352c05c4a64b5889bba2881a913.png',
-    'link': '//google.com',
+    'img': '//cdn.optimizely.com/img/7556701945/9f3eeda129b74e23b55a6b8debf9e04f.png',
+    'link': '//ausopen.ticketek.com.au/shows/show.aspx?sh=AOPENKD19',
     'btnClass': 'blue',
+    'hoverState': 'true',
     'products': [
       {
         'title': 'Single MEL',
