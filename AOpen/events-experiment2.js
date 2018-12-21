@@ -125,6 +125,7 @@ const eventCalendarList = [
         'img': '//cdn.optimizely.com/img/7556701945/e6ffef29a614499f948a36f89f3658b7.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
@@ -234,6 +235,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PA/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -259,6 +261,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PB/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -277,6 +280,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PC/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -295,6 +299,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PD/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -313,6 +318,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PE/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -331,6 +337,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PF/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -349,6 +356,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PG/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -367,6 +375,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PH/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -385,6 +394,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PI/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -403,6 +413,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PJ/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -428,9 +439,10 @@ const eventCalendarList = [
         'title': 'Single Day Sessions',
         'product': 'Single Day Session',
         'dateString': '12 - 12 Jan',
-        'img': '//cdn.optimizely.com/img/7556701945/79f1c2576e3e482bba4cb4ea6a3893e8.png',
+        'img': '//cdn.optimizely.com/img/7556701945/7bf8fb3d622a42bcbbb6c3828cef324e.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
@@ -494,9 +506,10 @@ const eventCalendarList = [
         'title': 'Single Night Sessions',
         'product': 'Single Night Session',
         'dateString': '12 - 12 Jan',
-        'img': '//cdn.optimizely.com/img/7556701945/e6ffef29a614499f948a36f89f3658b7.png',
+        'img': '//cdn.optimizely.com/img/7556701945/ec22ecfa3c8a41759f6d2f9774feb34b.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
@@ -550,6 +563,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PK/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -575,6 +589,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PL/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -593,6 +608,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PM/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -611,6 +627,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/seriesevents/EMAO0000019PN/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'dark-blue',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -639,6 +656,7 @@ const eventCalendarList = [
         'img': '//cdn.optimizely.com/img/7556701945/8808f3a2038e47d39182d453e18a6222.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
@@ -748,7 +766,7 @@ const eventCalendarList = [
         'link': '//ausopen.ticketek.com.au/events/AOPEN3DP19/venues/MPK/performances/EMAO0000193D/tickets',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
-        'btnLink': 'http://google.com',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -775,6 +793,7 @@ const eventCalendarList = [
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
         'btnLink': 'google.com',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 15 Jan',
@@ -810,6 +829,7 @@ const eventCalendarList = [
         'img': '//cdn.optimizely.com/img/7556701945/79ad6bab64c945ad98af174d5914a03f.png',
         'btnTitle': 'Link Title Dynamic',
         'btnClass': 'lime',
+        'hoverState': 'true',
         'times': [
           {
             'dateString': 'Mon 14 Jan',
