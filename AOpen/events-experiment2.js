@@ -716,42 +716,42 @@ const eventCalendarList = [
           },
           {
             'dateString': 'Tue 22 Jan',
-            'description': '',
+            'description': 'Quarterfinals',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
           },
           {
             'dateString': 'Wed 23 Jan',
-            'description': '',
+            'description': 'Quarterfinals',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
           },
           {
             'dateString': 'Thu 24 Jan',
-            'description': '',
+            'description': 'Semifinals',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
           },
           {
             'dateString': 'Fri 25 Jan',
-            'description': '',
+            'description': 'Semifinals',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
           },
           {
             'dateString': 'Sat 26 Jan',
-            'description': '',
+            'description': 'Women\'s Singles Final',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
           },
           {
             'dateString': 'Sun 27 Jan',
-            'description': '',
+            'description': 'Men\'s Singles Final',
             'btnString': 'Get Tickets',
             'btnClass': 'dark-blue',
             'btnLink': '//ausopen.ticketek.com.au/events/AOPENGP19/venues/MPK/performances/EMAO2019614GP/tickets'
