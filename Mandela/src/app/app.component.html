@@ -1,3 +1,27 @@
-<div *ngFor="let event of events">
-  {{event.title}}
-</div>
+  <h1 class="gold">{{content.title}}</h1>
+  <div [innerHTML]="content.description"></div>
+  <div class="p-1 w-100 bg-bold mb-3">
+  <strong class="uppercase">{{content.step[0].title}}</strong>  <span class="float-right">{{content.step[0].subtitle}}</span>
+  </div>
+  <div class="my-5 container-fluid">
+    <div class="row">
+      <div class="col">
+        {{content.step[0].content}}
+      </div>
+      <div class="col">
+        <a class="btn btn-black float-right" [routerLink]="['/routePath']" routerLinkActive="router-link-active" >Get Tickets</a>
+      </div>
+    </div>
+  </div>
+  <div class="p-1 w-100 bg-bold mb-3">
+  <strong class="uppercase">{{content.step[1].title}}</strong>  <span class="float-right">{{content.step[1].subtitle}}</span>
+  </div>
+  <div class="my-5">
+
+  </div>
+  <div class="p-1 w-100 bg-bold mb-3">
+  <strong class="uppercase">{{content.step[2].title}}</strong>  <span class="float-right">{{content.step[2].subtitle}}</span>
+  </div>
+  <div class="my-5">
+
+  </div>
